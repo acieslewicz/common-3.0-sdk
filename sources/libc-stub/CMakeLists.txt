@@ -8,7 +8,7 @@ set(VERSION 1.0.0)
 set(COMPAT_VERSION 1.0.0)
 
 set(LIBSYSTEM_SOURCES
-    libc_stub.c
+    libSystem.B.dylib.m
 )
 
 add_library(${LIB_NAME} SHARED ${LIBSYSTEM_SOURCES})

@@ -1,11 +1,10 @@
-_strerror
-_fsctl
-_srandomdev
-_confstr
-_strlcat
-_pwrite
-_utimes
-_pread
-_fchmod
-_dlerror
-_fsync
+// /usr/lib/libSystem.B.dylib
+// /usr/lib/libSystem.dylib
+void strerror() {}
+void fsctl() {}
+void srandomdev() {}
+void confstr() {}
+void strlcat() {}
+void utimes() {}
+void fchmod() {}
+void dlerror() {}

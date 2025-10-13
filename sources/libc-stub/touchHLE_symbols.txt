@@ -1,1142 +1,1508 @@
-_inet_addr
-_inet_ntop
-_inet_pton
-_setlocale
-___tolower
-___toupper
-___maskrune
-___cxa_atexit
-___cxa_finalize
-_CC_MD5
-_opendir
-_readdir
-_closedir
-_scandir
-_dlopen
-_dlsym
-_dlclose
-___error
-_perror
-_getifaddrs
-__keymgr_get_and_lock_processwide_ptr_2
-__keymgr_get_and_lock_processwide_ptr
-__keymgr_set_and_unlock_processwide_ptr
-__keymgr_unlock_processwide_ptr
-_OSAtomicAdd32Barrier
-_OSAtomicCompareAndSwap32
-_OSAtomicCompareAndSwap32Barrier
-_mach_host_self
-_host_page_size
-_host_statistics
-_semaphore_create
-_semaphore_signal
-_semaphore_wait
-_semaphore_destroy
-_thread_info
-_thread_policy_set
-_mach_timebase_info
-_mach_absolute_time
-_abs
-_fabs
-_sin
-_sinf
-_cos
-_cosf
-_tan
-_tanf
-_asin
-_asinf
-_acos
-_acosf
-_atan
-_atanf
-_atan2
-_atan2f
-_sinh
-_sinhf
-_cosh
-_coshf
-_tanh
-_tanhf
-_asinh
-_asinhf
-_acosh
-_acoshf
-_atanh
-_atanhf
-_log
-_logf
-_log1p
-_log1pf
-_log2
-_log2f
-_log10
-_log10f
-_exp
-_expf
-_expm1
-_expm1f
-_exp2
-_exp2f
-_ldexp
-_ldexpf
-_frexpf
-_frexp
-_pow
-_powf
-_sqrt
-_sqrtf
-_ceil
-_ceilf
-_floor
-_floorf
-_round
-_roundf
-_trunc
-_truncf
-_modff
-_lrint
-_lrintf
-_fmod
-_fmodf
-_fmax
-_fmaxf
-_fmin
-_fminf
-_mmap
-_munmap
-_if_nameindex
-_getaddrinfo
-_freeaddrinfo
-_gethostbyname
-_open
-_read
-_write
-_lseek
-_close
-_rename
-_getcwd
-_chdir
-_fcntl
-_flock
-_ftruncate
-_mkdir
-_fstat
-_stat
-_pthread_cond_init
-_pthread_cond_wait
-_pthread_cond_signal
-_pthread_cond_destroy
-_pthread_key_create
-_pthread_getspecific
-_pthread_setspecific
-_pthread_mutexattr_init
-_pthread_mutexattr_setpshared
-_pthread_mutexattr_settype
-_pthread_mutexattr_destroy
-_pthread_mutex_init
-_pthread_mutex_lock
-_pthread_mutex_trylock
-_pthread_mutex_unlock
-_pthread_mutex_destroy
-_pthread_once
-_pthread_attr_init
-_pthread_attr_setdetachstate
-_pthread_attr_getstacksize
-_pthread_attr_setstacksize
-_pthread_attr_destroy
-_pthread_create
-_pthread_equal
-_pthread_self
-_pthread_join
-_pthread_detach
-_pthread_setcanceltype
-_pthread_testcancel
-_pthread_mach_thread_np
-_pthread_getschedparam
-_pthread_setschedparam
-_sched_yield
-_sem_init
-_sem_destroy
-_sem_open
-_sem_post
-_sem_wait
-_sem_trywait
-_sem_close
-_sem_unlink
-_setjmp
-_longjmp
-_sigaction
-_signal
-_fopen
-_fread
-_fgetc
-_fgets
-_fputs
-_fputc
-_putc
-_fwrite
-_fseek
-_ftell
-_rewind
-_fsetpos
-_fgetpos
-_feof
-_clearerr
-_fflush
-_fclose
-_ferror
-_puts
-_putchar
-_remove
-_setbuf
-_fileno
-_sscanf
-_swscanf
-_vsscanf
-_snprintf
-_vprintf
-_vsnprintf
-_vsprintf
-___sprintf_chk
-_sprintf
-_swprintf
-_vswprintf
-_printf
-_fprintf
-_vfprintf
-_malloc
-_malloc_size
-_calloc
-_realloc
-_free
-_atexit
-_atoi
-_atol
-_atof
-_strtod
-_srand
-_rand
-_srandom
-_random
-_arc4random
-_getenv
-_setenv
-_exit
-_bsearch
-_strtof
-_strtoul
-_strtol
-_realpath
-_realpath$DARWIN_EXTSN
-_mbstowcs
-_wcstombs
-_qsort
-_strtok
-_bzero
-_memset
-___memset_chk
-_memcpy
-_memmove
-_memchr
-_memcmp
-_strlen
-_strcpy
-___strcpy_chk
-_strcat
-_strcspn
-___strcat_chk
-_strncpy
-_strsep
-_strdup
-_strcmp
-_strncmp
-_strcasecmp
-_strncasecmp
-_strncat
-_strstr
-_strchr
-_strrchr
-_strlcpy
-_statfs
-_ptrace
-_ftime
-_socket
-_ioctl
-_setsockopt
-_bind
-_listen
-_connect
-_select
-_accept
-_recv
-_recvfrom
-_send
-_sendto
-_shutdown
-_uname
-_sysctl
-_sysctlbyname
-_clock
-_time
-_tzset
-_gmtime_r
-_gmtime
-_mktime
-_localtime_r
-_localtime
-_gettimeofday
-_nanosleep
-_sleep
-_usleep
-_getpid
-_getppid
-_isatty
-_access
-_unlink
-_gethostname
-_getpagesize
-_getgid
-_btowc
-_wctob
-_wmemset
-_wmemcpy
-_wmemmove
-_wmemchr
-_wmemcmp
-_wcslen
-_wcscpy
-_wcscat
-_wcscspn
-_wcsncpy
-_wcsdup
-_wcscmp
-_wcsncmp
-_wcsncat
-_wcsstr
-_wcschr
-_wcsrchr
-_wcslcpy
-_objc_msgSend
-_objc_msgSend_stret
-_objc_msgSendSuper2
-_objc_getProperty
-_objc_setProperty
-_objc_copyStruct
-_objc_sync_enter
-_objc_sync_exit
-_sel_registerName
-__Block_object_dispose
-_AudioComponentFindNext
-_AudioComponentInstanceNew
-_AudioComponentInstanceDispose
-_AudioFileOpenURL
-_AudioFileGetPropertyInfo
-_AudioFileGetProperty
-_AudioFileReadBytes
-_AudioFileReadPackets
-_AudioFileReadPacketData
-_AudioFileOpenWithCallbacks
-_AudioFileClose
-_AudioFileStreamOpen
-_AudioQueueNewOutput
-_AudioQueueGetParameter
-_AudioQueueSetParameter
-_AudioQueueAllocateBufferWithPacketDescriptions
-_AudioQueueAllocateBuffer
-_AudioQueueEnqueueBuffer
-_AudioQueueAddPropertyListener
-_AudioQueueRemovePropertyListener
-_AudioQueueGetPropertySize
-_AudioQueueGetProperty
-_AudioQueuePrime
-_AudioQueueStart
-_AudioQueuePause
-_AudioQueueStop
-_AudioQueueReset
-_AudioQueueFlush
-_AudioQueueFreeBuffer
-_AudioQueueDispose
-_AudioServicesGetProperty
-_AudioServicesPlaySystemSound
-_AudioSessionInitialize
-_AudioSessionGetProperty
-_AudioSessionGetPropertySize
-_AudioSessionSetProperty
-_AudioSessionSetActive
-_AudioSessionAddPropertyListener
-_AudioUnitInitialize
-_AudioUnitUninitialize
-_AudioUnitSetProperty
-_AudioUnitGetProperty
-_AudioOutputUnitStart
-_AudioOutputUnitStop
-_CFArrayCreateMutable
-_CFArrayGetCount
-_CFArrayGetValueAtIndex
-_CFArrayAppendValue
-_CFArrayRemoveValueAtIndex
-_CFDictionaryCreateMutable
-_CFDictionaryAddValue
-_CFDictionarySetValue
-_CFDictionaryRemoveValue
-_CFDictionaryRemoveAllValues
-_CFDictionaryGetValue
-_CFDictionaryGetCount
-_CFDictionaryGetKeysAndValues
-_CFBundleGetMainBundle
-_CFBundleGetValueForInfoDictionaryKey
-_CFBundleGetVersionNumber
-_CFBundleCopyBundleURL
-_CFBundleCopyResourcesDirectoryURL
-_CFBundleCopyResourceURL
-_CFBundleCopyBundleLocalizations
-_CFBundleCopyPreferredLocalizationsFromArray
-_CFSocketCreate
-_CFDataCreate
-_CFDataGetLength
-_CFDataGetBytePtr
-_CFDataGetBytes
-_CFLocaleCopyCurrent
-_CFLocaleCopyPreferredLanguages
-_CFLocaleCreateCanonicalLocaleIdentifierFromString
-_CFLocaleGetSystem
-_CFLocaleGetValue
-_CFRunLoopGetCurrent
-_CFRunLoopGetMain
-_CFRunLoopRunInMode
-_CFRunLoopTimerCreate
-_CFRunLoopAddTimer
-_CFRunLoopTimerInvalidate
-_CFStringAppendFormat
-_CFStringConvertEncodingToNSStringEncoding
-_CFStringConvertNSStringEncodingToEncoding
-_CFStringCreateMutable
-_CFStringCreateWithCString
-_CFStringCreateWithFormat
-_CFStringCreateWithFormatAndArguments
-_CFStringCompare
-_CFStringGetCStringPtr
-_CFStringGetCString
-_CFStringGetLength
-_CFStringFind
-_CFRetain
-_CFRelease
-_CFGetRetainCount
-_CFEqual
-_CFHash
-_CFURLGetFileSystemRepresentation
-_CFURLCreateFromFileSystemRepresentation
-_CFURLCopyPathExtension
-_CFURLCopyFileSystemPath
-_CFURLCreateCopyAppendingPathComponent
-_CFURLCreateCopyDeletingLastPathComponent
-_CFAbsoluteTimeGetCurrent
-_CFTimeZoneCopySystem
-_CFAbsoluteTimeGetGregorianDate
-_CFAbsoluteTimeGetDayOfWeek
-_CGAffineTransformIsIdentity
-_CGAffineTransformEqualToTransform
-_CGAffineTransformMake
-_CGAffineTransformMakeRotation
-_CGAffineTransformMakeScale
-_CGAffineTransformMakeTranslation
-_CGAffineTransformConcat
-_CGAffineTransformRotate
-_CGAffineTransformScale
-_CGAffineTransformTranslate
-_CGAffineTransformInvert
-_CGPointApplyAffineTransform
-_CGSizeApplyAffineTransform
-_CGRectApplyAffineTransform
-_CGBitmapContextCreate
-_CGBitmapContextCreateImage
-_CGBitmapContextGetData
-_CGBitmapContextGetWidth
-_CGBitmapContextGetHeight
-_CGColorRetain
-_CGColorRelease
-_CGColorCreate
-_CGColorSpaceCreateWithName
-_CGColorSpaceCreateDeviceRGB
-_CGColorSpaceCreateDeviceGray
-_CGColorSpaceRetain
-_CGColorSpaceRelease
-_CGColorSpaceGetModel
-_CGContextRetain
-_CGContextRelease
-_CGContextSetRGBFillColor
-_CGContextSetGrayFillColor
-_CGContextFillRect
-_CGContextClearRect
-_CGContextConcatCTM
-_CGContextGetCTM
-_CGContextRotateCTM
-_CGContextScaleCTM
-_CGContextTranslateCTM
-_CGContextDrawImage
-_CGContextSaveGState
-_CGContextRestoreGState
-_CGContextSetInterpolationQuality
-_CGDataProviderRetain
-_CGDataProviderRelease
-_CGDataProviderCreateWithData
-_CGDataProviderCopyData
-_CGPointEqualToPoint
-_CGSizeEqualToSize
-_CGRectEqualToRect
-_CGRectContainsPoint
-_CGRectIntersectsRect
-_CGImageRelease
-_CGImageRetain
-_CGImageCreateWithPNGDataProvider
-_CGImageGetAlphaInfo
-_CGImageGetColorSpace
-_CGImageGetWidth
-_CGImageGetHeight
-_CGImageGetBitsPerPixel
-_CGImageGetDataProvider
-_CGImageGetBitsPerComponent
-_DNSServiceBrowse
-_DNSServiceRefSockFD
-_NSStringFromRange
-_NSSetUncaughtExceptionHandler
-_NSHomeDirectory
-_NSTemporaryDirectory
-_NSSearchPathForDirectoriesInDomains
-_NSLog
-_NSLogv
-_NSStringFromSelector
-_NSSelectorFromString
-_NSClassFromString
-_NSStringFromClass
-_alcOpenDevice
-_alcCloseDevice
-_alcGetError
-_alcCreateContext
-_alcDestroyContext
-_alcProcessContext
-_alcSuspendContext
-_alcMakeContextCurrent
-_alcGetProcAddress
-_alGetError
-_alDistanceModel
-_alListenerf
-_alListener3f
-_alListenerfv
-_alListeneri
-_alListener3i
-_alListeneriv
-_alGetListenerf
-_alGetListener3f
-_alGetListenerfv
-_alGetListeneri
-_alGetListener3i
-_alGetListeneriv
-_alGenSources
-_alDeleteSources
-_alSourcef
-_alSource3f
-_alSourcefv
-_alSourcei
-_alSource3i
-_alSourceiv
-_alGetSourcef
-_alGetSource3f
-_alGetSourcefv
-_alGetSourcei
-_alGetSource3i
-_alGetSourceiv
-_alSourcePlay
-_alSourcePause
-_alSourceStop
-_alSourceRewind
-_alSourceQueueBuffers
-_alSourceUnqueueBuffers
-_alGenBuffers
-_alDeleteBuffers
-_alBufferData
-_alBufferDataStatic
-_alcMacOSXMixerOutputRate
-_alcMacOSXGetMixerOutputRate
-_alcGetContextsDevice
-_alcGetCurrentContext
-_alcGetEnumValue
-_alcGetIntegerv
-_alcGetString
-_alcIsExtensionPresent
-_alIsBuffer
-_alGetBufferf
-_alGetBufferi
-_alEnable
-_alDisable
-_alDopplerFactor
-_alDopplerVelocity
-_alGetBoolean
-_alGetBooleanv
-_alGetDouble
-_alGetDoublev
-_alGetFloat
-_alGetFloatv
-_alGetInteger
-_alGetIntegerv
-_alGetEnumValue
-_alGetProcAddress
-_alGetString
-_alIsExtensionPresent
-_alIsEnabled
-_alIsSource
-_alSourcePlayv
-_alSourcePausev
-_alSourceStopv
-_alSourceRewindv
-_alSpeedOfSound
-_glGetError
-_glEnable
-_glIsEnabled
-_glDisable
-_glClientActiveTexture
-_glEnableClientState
-_glDisableClientState
-_glGetBooleanv
-_glGetFloatv
-_glGetIntegerv
-_glGetPointerv
-_glGetTexEnviv
-_glGetTexEnvfv
-_glHint
-_glFinish
-_glFlush
-_glGetString
-_glAlphaFunc
-_glAlphaFuncx
-_glBlendFunc
-_glBlendEquationOES
-_glColorMask
-_glClipPlanef
-_glClipPlanex
-_glCullFace
-_glDepthFunc
-_glDepthMask
-_glDepthRangef
-_glDepthRangex
-_glFrontFace
-_glPolygonOffset
-_glPolygonOffsetx
-_glShadeModel
-_glScissor
-_glViewport
-_glLineWidth
-_glLineWidthx
-_glStencilFunc
-_glStencilOp
-_glStencilMask
-_glPointSize
-_glPointSizex
-_glPointParameterf
-_glPointParameterx
-_glPointParameterfv
-_glPointParameterxv
-_glFogf
-_glFogx
-_glFogfv
-_glFogxv
-_glLightf
-_glLightx
-_glLightfv
-_glLightxv
-_glLightModelf
-_glLightModelfv
-_glLightModelx
-_glLightModelxv
-_glMaterialf
-_glMaterialx
-_glMaterialfv
-_glMaterialxv
-_glIsBuffer
-_glGenBuffers
-_glDeleteBuffers
-_glBindBuffer
-_glBufferData
-_glBufferSubData
-_glColor4f
-_glColor4x
-_glColor4ub
-_glNormal3f
-_glNormal3x
-_glColorPointer
-_glNormalPointer
-_glTexCoordPointer
-_glVertexPointer
-_glDrawArrays
-_glDrawElements
-_glClear
-_glClearColor
-_glClearColorx
-_glClearDepthf
-_glClearDepthx
-_glClearStencil
-_glMatrixMode
-_glLoadIdentity
-_glLoadMatrixf
-_glLoadMatrixx
-_glMultMatrixf
-_glMultMatrixx
-_glPushMatrix
-_glPopMatrix
-_glOrthof
-_glOrthox
-_glFrustumf
-_glFrustumx
-_glRotatef
-_glRotatex
-_glScalef
-_glScalex
-_glTranslatef
-_glTranslatex
-_glPixelStorei
-_glReadPixels
-_glGenTextures
-_glDeleteTextures
-_glActiveTexture
-_glIsTexture
-_glBindTexture
-_glTexParameteri
-_glTexParameterf
-_glTexParameterx
-_glTexParameteriv
-_glTexParameterfv
-_glTexParameterxv
-_glTexImage2D
-_glTexSubImage2D
-_glCompressedTexImage2D
-_glCopyTexImage2D
-_glCopyTexSubImage2D
-_glTexEnvf
-_glTexEnvx
-_glTexEnvi
-_glTexEnvfv
-_glTexEnvxv
-_glTexEnviv
-_glGenFramebuffersOES
-_glGenRenderbuffersOES
-_glBindFramebufferOES
-_glBindRenderbufferOES
-_glRenderbufferStorageOES
-_glFramebufferRenderbufferOES
-_glFramebufferTexture2DOES
-_glGetFramebufferAttachmentParameterivOES
-_glGetRenderbufferParameterivOES
-_glCheckFramebufferStatusOES
-_glDeleteFramebuffersOES
-_glDeleteRenderbuffersOES
-_glGenerateMipmapOES
-_glGetBufferParameteriv
-_glMapBufferOES
-_glUnmapBufferOES
-_SCNetworkReachabilityCreateWithName
-_SCNetworkReachabilityCreateWithAddress
-_SCNetworkReachabilityGetFlags
-_SCNetworkReachabilitySetCallback
-_UIApplicationMain
-_CGPointFromString
-_CGSizeFromString
-_CGRectFromString
-_NSStringFromCGPoint
-_NSStringFromCGSize
-_NSStringFromCGRect
-_UIGraphicsPushContext
-_UIGraphicsPopContext
-_UIGraphicsGetCurrentContext
-__DefaultRuneLocale
-___stdinp
-___stdoutp
-___stderrp
-_mach_task_self_
-_vm_page_size
-_kCATransitionFade
-_kCATransitionMoveIn
-_kCATransitionPush
-_kCATransitionReveal
-_kCAFilterLinear
-_kCAFilterNearest
-_kCAFilterTrilinear
-_kCAMediaTimingFunctionDefault
-_kCAMediaTimingFunctionEaseIn
-_kCAMediaTimingFunctionEaseInEaseOut
-_kCAMediaTimingFunctionEaseOut
-_kCAMediaTimingFunctionLinear
-_kCFAllocatorDefault
-_kCFBundleVersionKey
-_kCFTypeDictionaryKeyCallBacks
-_kCFTypeDictionaryValueCallBacks
-_kCFLocaleCountryCode
-_kCFRunLoopCommonModes
-_kCFRunLoopDefaultMode
-_CGAffineTransformIdentity
-_kCGColorSpaceGenericRGB
-_kCGColorSpaceGenericGray
-_CGSizeZero
-_CGPointZero
-_CGRectZero
-_GKPlayerAuthenticationDidChangeNotificationName
-_NSLocalizedDescriptionKey
-_NSOSStatusErrorDomain
-_NSCharacterConversionException
-_NSDecimalNumberDivideByZeroException
-_NSDecimalNumberExactnessException
-_NSDecimalNumberOverflowException
-_NSDecimalNumberUnderflowException
-_NSDestinationInvalidException
-_NSFileHandleOperationException
-_NSGenericException
-_NSInternalInconsistencyException
-_NSInvalidArchiveOperationException
-_NSInvalidArgumentException
-_NSInvalidReceivePortException
-_NSInvalidSendPortException
-_NSInvalidUnarchiveOperationException
-_NSInvocationOperationCancelledException
-_NSInvocationOperationVoidResultException
-_NSMallocException
-_NSObjectInaccessibleException
-_NSObjectNotAvailableException
-_NSOldStyleException
-_NSParseErrorException
-_NSPortReceiveException
-_NSPortSendException
-_NSPortTimeoutException
-_NSRangeException
-_NSUndefinedKeyException
-_NSInconsistentArchiveException
-_NSPPDIncludeNotFoundException
-_NSPPDIncludeStackOverflowException
-_NSPPDIncludeStackUnderflowException
-_NSPPDParseException
-_NSRTFPropertyStackOverflowException
-_NSTIFFException
-_NSAbortModalException
-_NSAbortPrintingException
-_NSAccessibilityException
-_NSAppKitIgnoredException
-_NSAppKitVirtualMemoryException
-_NSBadBitmapParametersException
-_NSBadComparisonException
-_NSBadRTFColorTableException
-_NSBadRTFDirectiveException
-_NSBadRTFFontTableException
-_NSBadRTFStyleSheetException
-_NSBrowserIllegalDelegateException
-_NSColorListIOException
-_NSColorListNotEditableException
-_NSDraggingException
-_NSFontUnavailableException
-_NSIllegalSelectorException
-_NSImageCacheException
-_NSNibLoadingException
-_NSPasteboardCommunicationException
-_NSPrintOperationExistsException
-_NSPrintPackageException
-_NSPrintingCommunicationException
-_NSTextLineTooLongException
-_NSTextNoSelectionException
-_NSTextReadException
-_NSTextWriteException
-_NSTypedStreamVersionException
-_NSWindowServerCommunicationException
-_NSWordTablesReadException
-_NSWordTablesWriteException
-_UIViewControllerHierarchyInconsistencyException
-_UIApplicationInvalidInterfaceOrientationException
-_NSFileModificationDate
-_NSFileSize
-_NSFileSystemFreeSize
-_NSKeyedArchiveRootObjectKey
-_NSLocaleCountryCode
-_NSRunLoopCommonModes
-_NSDefaultRunLoopMode
-_MPMoviePlayerPlaybackDidFinishNotification
-_MPMoviePlayerContentPreloadDidFinishNotification
-_MPMoviePlayerScalingModeDidChangeNotification
-_MPMusicPlayerControllerNowPlayingItemDidChangeNotification
-_MPMusicPlayerControllerPlaybackStateDidChangeNotification
-_kEAGLDrawablePropertyColorFormat
-_kEAGLDrawablePropertyRetainedBacking
-_kEAGLColorFormatRGBA8
-_kEAGLColorFormatRGB565
-_UIApplicationDidReceiveMemoryWarningNotification
-_UIApplicationLaunchOptionsRemoteNotificationKey
-_UIApplicationDidEnterBackgroundNotification
-_UIDeviceOrientationDidChangeNotification
-_UITextFieldTextDidChangeNotification
-_UIKeyboardWillShowNotification
-_UIKeyboardDidShowNotification
-_UIKeyboardWillHideNotification
-_UIKeyboardDidHideNotification
-_UIKeyboardBoundsUserInfoKey
-_OBJC_CLASS_$__touchHLE_AppPickerDelegate
-_OBJC_METACLASS_$__touchHLE_AppPickerDelegate
-_OBJC_CLASS_$_CAAnimation
-_OBJC_METACLASS_$_CAAnimation
-_OBJC_CLASS_$_CAPropertyAnimation
-_OBJC_METACLASS_$_CAPropertyAnimation
-_OBJC_CLASS_$_CABasicAnimation
-_OBJC_METACLASS_$_CABasicAnimation
-_OBJC_CLASS_$_CATransition
-_OBJC_METACLASS_$_CATransition
-_OBJC_CLASS_$_CAEAGLLayer
-_OBJC_METACLASS_$_CAEAGLLayer
-_OBJC_CLASS_$_CALayer
-_OBJC_METACLASS_$_CALayer
-_OBJC_CLASS_$_CAMediaTimingFunction
-_OBJC_METACLASS_$_CAMediaTimingFunction
-_OBJC_CLASS_$__touchHLE_CGDataProvider
-_OBJC_METACLASS_$__touchHLE_CGDataProvider
-_OBJC_CLASS_$__touchHLE_CGColor
-_OBJC_METACLASS_$__touchHLE_CGColor
-_OBJC_CLASS_$__touchHLE_CGColorSpace
-_OBJC_METACLASS_$__touchHLE_CGColorSpace
-_OBJC_CLASS_$__touchHLE_CGContext
-_OBJC_METACLASS_$__touchHLE_CGContext
-_OBJC_CLASS_$__touchHLE_CGImage
-_OBJC_METACLASS_$__touchHLE_CGImage
-_OBJC_CLASS_$__touchHLE_CFTimerTarget
-_OBJC_METACLASS_$__touchHLE_CFTimerTarget
-_OBJC_CLASS_$_CLLocationManager
-_OBJC_METACLASS_$_CLLocationManager
-_OBJC_CLASS_$_CLHeading
-_OBJC_METACLASS_$_CLHeading
-_OBJC_CLASS_$_GKLocalPlayer
-_OBJC_METACLASS_$_GKLocalPlayer
-_OBJC_CLASS_$_GKScore
-_OBJC_METACLASS_$_GKScore
-_OBJC_CLASS_$_NSArray
-_OBJC_METACLASS_$_NSArray
-_OBJC_CLASS_$_NSMutableArray
-_OBJC_METACLASS_$_NSMutableArray
-_OBJC_CLASS_$__touchHLE_NSArray
-_OBJC_METACLASS_$__touchHLE_NSArray
-_OBJC_CLASS_$__touchHLE_NSArray_non_retaining
-_OBJC_METACLASS_$__touchHLE_NSArray_non_retaining
-_OBJC_CLASS_$__touchHLE_NSArray_ObjectEnumerator
-_OBJC_METACLASS_$__touchHLE_NSArray_ObjectEnumerator
-_OBJC_CLASS_$__touchHLE_NSMutableArray
-_OBJC_METACLASS_$__touchHLE_NSMutableArray
-_OBJC_CLASS_$__touchHLE_NSMutableArray_non_retaining
-_OBJC_METACLASS_$__touchHLE_NSMutableArray_non_retaining
-_OBJC_CLASS_$_NSAutoreleasePool
-_OBJC_METACLASS_$_NSAutoreleasePool
-_OBJC_CLASS_$_NSBundle
-_OBJC_METACLASS_$_NSBundle
-_OBJC_CLASS_$_NSCharacterSet
-_OBJC_METACLASS_$_NSCharacterSet
-_OBJC_CLASS_$__touchHLE_NSCharacterSet
-_OBJC_METACLASS_$__touchHLE_NSCharacterSet
-_OBJC_CLASS_$_NSCoder
-_OBJC_METACLASS_$_NSCoder
-_OBJC_CLASS_$_NSData
-_OBJC_METACLASS_$_NSData
-_OBJC_CLASS_$_NSMutableData
-_OBJC_METACLASS_$_NSMutableData
-_OBJC_CLASS_$_NSDate
-_OBJC_METACLASS_$_NSDate
-_OBJC_CLASS_$_NSDateFormatter
-_OBJC_METACLASS_$_NSDateFormatter
-_OBJC_CLASS_$_NSDictionary
-_OBJC_METACLASS_$_NSDictionary
-_OBJC_CLASS_$_NSMutableDictionary
-_OBJC_METACLASS_$_NSMutableDictionary
-_OBJC_CLASS_$__touchHLE_NSDictionary
-_OBJC_METACLASS_$__touchHLE_NSDictionary
-_OBJC_CLASS_$__touchHLE_NSMutableDictionary
-_OBJC_METACLASS_$__touchHLE_NSMutableDictionary
-_OBJC_CLASS_$__touchHLE_NSMutableDictionary_non_retaining
-_OBJC_METACLASS_$__touchHLE_NSMutableDictionary_non_retaining
-_OBJC_CLASS_$_NSEnumerator
-_OBJC_METACLASS_$_NSEnumerator
-_OBJC_CLASS_$_NSError
-_OBJC_METACLASS_$_NSError
-_OBJC_CLASS_$_NSFileHandle
-_OBJC_METACLASS_$_NSFileHandle
-_OBJC_CLASS_$_NSFileManager
-_OBJC_METACLASS_$_NSFileManager
-_OBJC_CLASS_$_NSDirectoryEnumerator
-_OBJC_METACLASS_$_NSDirectoryEnumerator
-_OBJC_CLASS_$_NSKeyedUnarchiver
-_OBJC_METACLASS_$_NSKeyedUnarchiver
-_OBJC_CLASS_$_NSLocale
-_OBJC_METACLASS_$_NSLocale
-_OBJC_CLASS_$_NSLock
-_OBJC_METACLASS_$_NSLock
-_OBJC_CLASS_$_NSNotification
-_OBJC_METACLASS_$_NSNotification
-_OBJC_CLASS_$_NSNotificationCenter
-_OBJC_METACLASS_$_NSNotificationCenter
-_OBJC_CLASS_$_NSNull
-_OBJC_METACLASS_$_NSNull
-_OBJC_CLASS_$_NSObject
-_OBJC_METACLASS_$_NSObject
-_OBJC_CLASS_$_NSProcessInfo
-_OBJC_METACLASS_$_NSProcessInfo
-_OBJC_CLASS_$_NSPropertyListSerialization
-_OBJC_METACLASS_$_NSPropertyListSerialization
-_OBJC_CLASS_$_NSRunLoop
-_OBJC_METACLASS_$_NSRunLoop
-_OBJC_CLASS_$_NSScanner
-_OBJC_METACLASS_$_NSScanner
-_OBJC_CLASS_$__touchHLE_NSScanner
-_OBJC_METACLASS_$__touchHLE_NSScanner
-_OBJC_CLASS_$_NSSet
-_OBJC_METACLASS_$_NSSet
-_OBJC_CLASS_$_NSMutableSet
-_OBJC_METACLASS_$_NSMutableSet
-_OBJC_CLASS_$__touchHLE_NSSet
-_OBJC_METACLASS_$__touchHLE_NSSet
-_OBJC_CLASS_$__touchHLE_NSMutableSet
-_OBJC_METACLASS_$__touchHLE_NSMutableSet
-_OBJC_CLASS_$_NSString
-_OBJC_METACLASS_$_NSString
-_OBJC_CLASS_$_NSMutableString
-_OBJC_METACLASS_$_NSMutableString
-_OBJC_CLASS_$__touchHLE_NSString
-_OBJC_METACLASS_$__touchHLE_NSString
-_OBJC_CLASS_$__touchHLE_NSString_Static
-_OBJC_METACLASS_$__touchHLE_NSString_Static
-_OBJC_CLASS_$__touchHLE_NSString_CFConstantString_UTF8
-_OBJC_METACLASS_$__touchHLE_NSString_CFConstantString_UTF8
-_OBJC_CLASS_$__touchHLE_NSString_CFConstantString_UTF16
-_OBJC_METACLASS_$__touchHLE_NSString_CFConstantString_UTF16
-_OBJC_CLASS_$__touchHLE_NSMutableString
-_OBJC_METACLASS_$__touchHLE_NSMutableString
-_OBJC_CLASS_$_NSThread
-_OBJC_METACLASS_$_NSThread
-_OBJC_CLASS_$_NSTimer
-_OBJC_METACLASS_$_NSTimer
-_OBJC_CLASS_$_NSTimeZone
-_OBJC_METACLASS_$_NSTimeZone
-_OBJC_CLASS_$_NSURL
-_OBJC_METACLASS_$_NSURL
-_OBJC_CLASS_$_NSURLCache
-_OBJC_METACLASS_$_NSURLCache
-_OBJC_CLASS_$_NSURLConnection
-_OBJC_METACLASS_$_NSURLConnection
-_OBJC_CLASS_$_NSURLRequest
-_OBJC_METACLASS_$_NSURLRequest
-_OBJC_CLASS_$_NSMutableURLRequest
-_OBJC_METACLASS_$_NSMutableURLRequest
-_OBJC_CLASS_$_NSUserDefaults
-_OBJC_METACLASS_$_NSUserDefaults
-_OBJC_CLASS_$_NSValue
-_OBJC_METACLASS_$_NSValue
-_OBJC_CLASS_$_NSNumber
-_OBJC_METACLASS_$_NSNumber
-_OBJC_CLASS_$_NSXMLParser
-_OBJC_METACLASS_$_NSXMLParser
-_OBJC_CLASS_$_AVAudioPlayer
-_OBJC_METACLASS_$_AVAudioPlayer
-_OBJC_CLASS_$_MPMoviePlayerController
-_OBJC_METACLASS_$_MPMoviePlayerController
-_OBJC_CLASS_$_MPMusicPlayerController
-_OBJC_METACLASS_$_MPMusicPlayerController
-_OBJC_CLASS_$_MPMediaLibrary
-_OBJC_METACLASS_$_MPMediaLibrary
-_OBJC_CLASS_$_MPMediaPickerController
-_OBJC_METACLASS_$_MPMediaPickerController
-_OBJC_CLASS_$_MPMediaQuery
-_OBJC_METACLASS_$_MPMediaQuery
-_OBJC_CLASS_$_EAGLContext
-_OBJC_METACLASS_$_EAGLContext
-_OBJC_CLASS_$__touchHLE_SCNetworkReachability
-_OBJC_METACLASS_$__touchHLE_SCNetworkReachability
-_OBJC_CLASS_$_SKPaymentQueue
-_OBJC_METACLASS_$_SKPaymentQueue
-_OBJC_CLASS_$_SKProduct
-_OBJC_METACLASS_$_SKProduct
-_OBJC_CLASS_$_SKProductsRequest
-_OBJC_METACLASS_$_SKProductsRequest
-_OBJC_CLASS_$_UIAccelerometer
-_OBJC_METACLASS_$_UIAccelerometer
-_OBJC_CLASS_$_UIAcceleration
-_OBJC_METACLASS_$_UIAcceleration
-_OBJC_CLASS_$_UIActivityIndicatorView
-_OBJC_METACLASS_$_UIActivityIndicatorView
-_OBJC_CLASS_$_UIApplication
-_OBJC_METACLASS_$_UIApplication
-_OBJC_CLASS_$_UIColor
-_OBJC_METACLASS_$_UIColor
-_OBJC_CLASS_$_UICGColor
-_OBJC_METACLASS_$_UICGColor
-_OBJC_CLASS_$_UIDeviceRGBColor
-_OBJC_METACLASS_$_UIDeviceRGBColor
-_OBJC_CLASS_$__touchHLE_UIColor_Static
-_OBJC_METACLASS_$__touchHLE_UIColor_Static
-_OBJC_CLASS_$_UIDevice
-_OBJC_METACLASS_$_UIDevice
-_OBJC_CLASS_$_UIEvent
-_OBJC_METACLASS_$_UIEvent
-_OBJC_CLASS_$_UIFont
-_OBJC_METACLASS_$_UIFont
-_OBJC_CLASS_$_UIImage
-_OBJC_METACLASS_$_UIImage
-_OBJC_CLASS_$_UIImagePickerController
-_OBJC_METACLASS_$_UIImagePickerController
-_OBJC_CLASS_$_UINib
-_OBJC_METACLASS_$_UINib
-_OBJC_CLASS_$_UIProxyObject
-_OBJC_METACLASS_$_UIProxyObject
-_OBJC_CLASS_$_UIClassSwapper
-_OBJC_METACLASS_$_UIClassSwapper
-_OBJC_CLASS_$_UIRuntimeConnection
-_OBJC_METACLASS_$_UIRuntimeConnection
-_OBJC_CLASS_$_UIRuntimeEventConnection
-_OBJC_METACLASS_$_UIRuntimeEventConnection
-_OBJC_CLASS_$_UIRuntimeOutletConnection
-_OBJC_METACLASS_$_UIRuntimeOutletConnection
-_OBJC_CLASS_$_UIResponder
-_OBJC_METACLASS_$_UIResponder
-_OBJC_CLASS_$_UIScreen
-_OBJC_METACLASS_$_UIScreen
-_OBJC_CLASS_$_UITouch
-_OBJC_METACLASS_$_UITouch
-_OBJC_CLASS_$_UIView
-_OBJC_METACLASS_$_UIView
-_OBJC_CLASS_$_UIAlertView
-_OBJC_METACLASS_$_UIAlertView
-_OBJC_CLASS_$_UIControl
-_OBJC_METACLASS_$_UIControl
-_OBJC_CLASS_$_UIButton
-_OBJC_METACLASS_$_UIButton
-_OBJC_CLASS_$_UIRoundedRectButton
-_OBJC_METACLASS_$_UIRoundedRectButton
-_OBJC_CLASS_$_UIButtonContent
-_OBJC_METACLASS_$_UIButtonContent
-_OBJC_CLASS_$_UISegmentedControl
-_OBJC_METACLASS_$_UISegmentedControl
-_OBJC_CLASS_$_UISegment
-_OBJC_METACLASS_$_UISegment
-_OBJC_CLASS_$_UISlider
-_OBJC_METACLASS_$_UISlider
-_OBJC_CLASS_$_UITextField
-_OBJC_METACLASS_$_UITextField
-_OBJC_CLASS_$_UISwitch
-_OBJC_METACLASS_$_UISwitch
-_OBJC_CLASS_$_UIImageView
-_OBJC_METACLASS_$_UIImageView
-_OBJC_CLASS_$_UILabel
-_OBJC_METACLASS_$_UILabel
-_OBJC_CLASS_$_UIPickerView
-_OBJC_METACLASS_$_UIPickerView
-_OBJC_CLASS_$_UIScrollView
-_OBJC_METACLASS_$_UIScrollView
-_OBJC_CLASS_$_UITextView
-_OBJC_METACLASS_$_UITextView
-_OBJC_CLASS_$_UIWebView
-_OBJC_METACLASS_$_UIWebView
-_OBJC_CLASS_$_UIWindow
-_OBJC_METACLASS_$_UIWindow
-_OBJC_CLASS_$_UIViewController
-_OBJC_METACLASS_$_UIViewController
-_OBJC_CLASS_$_UINavigationController
-_OBJC_METACLASS_$_UINavigationController
-__objc_empty_cache
-__objc_empty_vtable
+// /usr/lib/libSystem.B.dylib
+// /usr/lib/libSystem.dylib
+int _DefaultRuneLocale;
+int __stdinp;
+int __stdoutp;
+int __stderrp;
+int mach_task_self_;
+int vm_page_size;
+void inet_addr() {}
+void inet_ntop() {}
+void inet_pton() {}
+void setlocale() {}
+void __tolower() {}
+void __toupper() {}
+void __maskrune() {}
+void __cxa_atexit() {}
+void __cxa_finalize() {}
+void CC_MD5() {}
+void opendir() {}
+void readdir() {}
+void closedir() {}
+void scandir() {}
+void dlopen() {}
+void dlsym() {}
+void dlclose() {}
+void DNSServiceBrowse() {}
+void DNSServiceRefSockFD() {}
+void __error() {}
+void perror() {}
+void getifaddrs() {}
+void _keymgr_get_and_lock_processwide_ptr_2() {}
+void _keymgr_get_and_lock_processwide_ptr() {}
+void _keymgr_set_and_unlock_processwide_ptr() {}
+void _keymgr_unlock_processwide_ptr() {}
+void OSAtomicAdd32() {}
+void OSAtomicAdd32Barrier() {}
+void OSAtomicCompareAndSwap32() {}
+void OSAtomicCompareAndSwapIntBarrier() {}
+void OSAtomicCompareAndSwap32Barrier() {}
+void OSAtomicCompareAndSwapPtrBarrier() {}
+void mach_host_self() {}
+void host_page_size() {}
+void host_statistics() {}
+void mach_task_self() {}
+void semaphore_create() {}
+void semaphore_signal() {}
+void semaphore_wait() {}
+void semaphore_destroy() {}
+void thread_info() {}
+void thread_policy_set() {}
+void mach_timebase_info() {}
+void mach_absolute_time() {}
+void abs() {}
+void fabs() {}
+void sin() {}
+void sinf() {}
+void cos() {}
+void cosf() {}
+void tan() {}
+void tanf() {}
+void asin() {}
+void asinf() {}
+void acos() {}
+void acosf() {}
+void atan() {}
+void atanf() {}
+void atan2() {}
+void atan2f() {}
+void sinh() {}
+void sinhf() {}
+void cosh() {}
+void coshf() {}
+void tanh() {}
+void tanhf() {}
+void asinh() {}
+void asinhf() {}
+void acosh() {}
+void acoshf() {}
+void atanh() {}
+void atanhf() {}
+void log() {}
+void logf() {}
+void log1p() {}
+void log1pf() {}
+void log2() {}
+void log2f() {}
+void log10() {}
+void log10f() {}
+void exp() {}
+void expf() {}
+void expm1() {}
+void expm1f() {}
+void exp2() {}
+void exp2f() {}
+void ldexp() {}
+void ldexpf() {}
+void frexpf() {}
+void frexp() {}
+void pow() {}
+void powf() {}
+void sqrt() {}
+void sqrtf() {}
+void ceil() {}
+void ceilf() {}
+void floor() {}
+void floorf() {}
+void round() {}
+void roundf() {}
+void lround() {}
+void lroundf() {}
+void trunc() {}
+void truncf() {}
+void modf() {}
+void modff() {}
+void lrint() {}
+void lrintf() {}
+void fegetround() {}
+void fesetround() {}
+void fmod() {}
+void fmodf() {}
+void fmax() {}
+void fmaxf() {}
+void fmin() {}
+void fminf() {}
+void mmap() {}
+void munmap() {}
+void if_nameindex() {}
+void getaddrinfo() {}
+void freeaddrinfo() {}
+void gethostbyname() {}
+void open() {}
+void read() {}
+void pread() {}
+void write() {}
+void pwrite() {}
+void lseek() {}
+void close() {}
+void rename() {}
+void getcwd() {}
+void chdir() {}
+void fcntl() {}
+void flock() {}
+void fsync() {}
+void ftruncate() {}
+void mkdir() {}
+void fstat() {}
+void stat() {}
+void pthread_cond_init() {}
+void pthread_cond_wait() {}
+void pthread_cond_signal() {}
+void pthread_cond_broadcast() {}
+void pthread_cond_destroy() {}
+void pthread_key_create() {}
+void pthread_getspecific() {}
+void pthread_setspecific() {}
+void pthread_mutexattr_init() {}
+void pthread_mutexattr_setpshared() {}
+void pthread_mutexattr_settype() {}
+void pthread_mutexattr_destroy() {}
+void pthread_mutex_init() {}
+void pthread_mutex_lock() {}
+void pthread_mutex_trylock() {}
+void pthread_mutex_unlock() {}
+void pthread_mutex_destroy() {}
+void pthread_once() {}
+void pthread_attr_init() {}
+void pthread_attr_setdetachstate() {}
+void pthread_attr_getstacksize() {}
+void pthread_attr_setstacksize() {}
+void pthread_attr_destroy() {}
+void pthread_create() {}
+void pthread_equal() {}
+void pthread_self() {}
+void pthread_join() {}
+void pthread_detach() {}
+void pthread_setcanceltype() {}
+void pthread_testcancel() {}
+void pthread_mach_thread_np() {}
+void pthread_getschedparam() {}
+void pthread_setschedparam() {}
+void sched_yield() {}
+void sem_init() {}
+void sem_destroy() {}
+void sem_open() {}
+void sem_post() {}
+void sem_wait() {}
+void sem_trywait() {}
+void sem_close() {}
+void sem_unlink() {}
+void setjmp() {}
+void longjmp() {}
+void sigaction() {}
+void signal() {}
+void fopen() {}
+void fread() {}
+void fgetc() {}
+void getc() {}
+void ungetc() {}
+void fgets() {}
+void fputs() {}
+void fputc() {}
+void putc() {}
+void fwrite() {}
+void fseek() {}
+void ftell() {}
+void rewind() {}
+void fsetpos() {}
+void fgetpos() {}
+void feof() {}
+void clearerr() {}
+void fflush() {}
+void fclose() {}
+void ferror() {}
+void puts() {}
+void putchar() {}
+void remove() {}
+void setbuf() {}
+void fileno() {}
+void sscanf() {}
+void swscanf() {}
+void vsscanf() {}
+void fscanf() {}
+void snprintf() {}
+void vprintf() {}
+void vsnprintf() {}
+void vsprintf() {}
+void __sprintf_chk() {}
+void sprintf() {}
+void swprintf() {}
+void vswprintf() {}
+void printf() {}
+void fprintf() {}
+void vfprintf() {}
+void malloc() {}
+void malloc_size() {}
+void calloc() {}
+void realloc() {}
+void free() {}
+void atexit() {}
+void atoi() {}
+void atol() {}
+void atof() {}
+void strtod() {}
+void srand() {}
+void rand() {}
+void srandom() {}
+void random() {}
+void arc4random() {}
+void getenv() {}
+void setenv() {}
+void exit() {}
+void bsearch() {}
+void strtof() {}
+void strtoul() {}
+void strtoull() {}
+void strtol() {}
+void realpath() {}
+void realpath$DARWIN_EXTSN() {}
+void mbstowcs() {}
+void wcstombs() {}
+void system() {}
+void qsort() {}
+void strtok() {}
+void bzero() {}
+void memset() {}
+void __memset_chk() {}
+void memset_pattern4() {}
+void memset_pattern8() {}
+void memset_pattern16() {}
+void memcpy() {}
+void memmove() {}
+void memchr() {}
+void memcmp() {}
+void strlen() {}
+void strcpy() {}
+void __strcpy_chk() {}
+void strcat() {}
+void strcspn() {}
+void __strcat_chk() {}
+void strncpy() {}
+void strsep() {}
+void strdup() {}
+void strcmp() {}
+void strncmp() {}
+void strcasecmp() {}
+void strncasecmp() {}
+void strncat() {}
+void strstr() {}
+void strchr() {}
+void strrchr() {}
+void strlcpy() {}
+void statfs() {}
+void ptrace() {}
+void ftime() {}
+void socket() {}
+void ioctl() {}
+void getsockopt() {}
+void setsockopt() {}
+void bind() {}
+void listen() {}
+void connect() {}
+void select() {}
+void accept() {}
+void recv() {}
+void recvfrom() {}
+void send() {}
+void sendto() {}
+void shutdown() {}
+void uname() {}
+void sysctl() {}
+void sysctlbyname() {}
+void clock() {}
+void time() {}
+void tzset() {}
+void gmtime_r() {}
+void gmtime() {}
+void mktime() {}
+void localtime_r() {}
+void localtime() {}
+void gettimeofday() {}
+void nanosleep() {}
+void sleep() {}
+void usleep() {}
+void getpid() {}
+void getppid() {}
+void isatty() {}
+void access() {}
+void unlink() {}
+void gethostname() {}
+void getpagesize() {}
+void getgid() {}
+void btowc() {}
+void wctob() {}
+void wmemset() {}
+void wmemcpy() {}
+void wmemmove() {}
+void wmemchr() {}
+void wmemcmp() {}
+void wcslen() {}
+void wcscpy() {}
+void wcscat() {}
+void wcscspn() {}
+void wcsncpy() {}
+void wcsdup() {}
+void wcscmp() {}
+void wcsncmp() {}
+void wcsncat() {}
+void wcsstr() {}
+void wcschr() {}
+void wcsrchr() {}
+void wcslcpy() {}
+// /usr/lib/libobjc.A.dylib
+// /usr/lib/libobjc.dylib
+int _objc_empty_vtable;
+int _objc_empty_cache;
+void objc_msgSend() {}
+void objc_msgSend_stret() {}
+void objc_msgSendSuper2() {}
+void objc_getProperty() {}
+void objc_setProperty() {}
+void objc_copyStruct() {}
+void objc_sync_enter() {}
+void objc_sync_exit() {}
+void sel_registerName() {}
+void _Block_object_dispose() {}
+// /.touchHLE/AppPickerHelpers.dylib
+@interface _touchHLE_AppPickerDelegate
+@end
+@implementation _touchHLE_AppPickerDelegate
+@end
+// /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+void AudioComponentFindNext() {}
+void AudioComponentInstanceNew() {}
+void AudioComponentInstanceDispose() {}
+void AudioFileOpenURL() {}
+void AudioFileGetPropertyInfo() {}
+void AudioFileGetProperty() {}
+void AudioFileReadBytes() {}
+void AudioFileReadPackets() {}
+void AudioFileReadPacketData() {}
+void AudioFileOpenWithCallbacks() {}
+void AudioFileClose() {}
+void AudioFileStreamOpen() {}
+void AudioQueueNewOutput() {}
+void AudioQueueGetParameter() {}
+void AudioQueueSetParameter() {}
+void AudioQueueAllocateBufferWithPacketDescriptions() {}
+void AudioQueueAllocateBuffer() {}
+void AudioQueueEnqueueBuffer() {}
+void AudioQueueAddPropertyListener() {}
+void AudioQueueRemovePropertyListener() {}
+void AudioQueueGetPropertySize() {}
+void AudioQueueGetProperty() {}
+void AudioQueuePrime() {}
+void AudioQueueStart() {}
+void AudioQueuePause() {}
+void AudioQueueStop() {}
+void AudioQueueReset() {}
+void AudioQueueFlush() {}
+void AudioQueueFreeBuffer() {}
+void AudioQueueDispose() {}
+void AudioServicesGetProperty() {}
+void AudioServicesPlaySystemSound() {}
+void AudioSessionInitialize() {}
+void AudioSessionGetProperty() {}
+void AudioSessionGetPropertySize() {}
+void AudioSessionSetProperty() {}
+void AudioSessionSetActive() {}
+void AudioSessionAddPropertyListener() {}
+void AudioUnitInitialize() {}
+void AudioUnitUninitialize() {}
+void AudioUnitSetProperty() {}
+void AudioUnitGetProperty() {}
+void AudioOutputUnitStart() {}
+void AudioOutputUnitStop() {}
+// /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+@interface AVAudioPlayer
+@end
+@implementation AVAudioPlayer
+@end
+// /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+@interface CAAnimation
+@end
+@implementation CAAnimation
+@end
+@interface CAPropertyAnimation
+@end
+@implementation CAPropertyAnimation
+@end
+@interface CABasicAnimation
+@end
+@implementation CABasicAnimation
+@end
+@interface CATransition
+@end
+@implementation CATransition
+@end
+@interface CAEAGLLayer
+@end
+@implementation CAEAGLLayer
+@end
+@interface CALayer
+@end
+@implementation CALayer
+@end
+@interface CAMediaTimingFunction
+@end
+@implementation CAMediaTimingFunction
+@end
+int kCATransitionFade;
+int kCATransitionMoveIn;
+int kCATransitionPush;
+int kCATransitionReveal;
+int kCAFilterLinear;
+int kCAFilterNearest;
+int kCAFilterTrilinear;
+int kCAMediaTimingFunctionDefault;
+int kCAMediaTimingFunctionEaseIn;
+int kCAMediaTimingFunctionEaseInEaseOut;
+int kCAMediaTimingFunctionEaseOut;
+int kCAMediaTimingFunctionLinear;
+// /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+@interface _touchHLE_CFTimerTarget
+@end
+@implementation _touchHLE_CFTimerTarget
+@end
+int kCFAllocatorDefault;
+int kCFBundleVersionKey;
+int kCFTypeDictionaryKeyCallBacks;
+int kCFTypeDictionaryValueCallBacks;
+int kCFLocaleCountryCode;
+int kCFLocaleLanguageCode;
+int kCFBooleanFalse;
+int kCFBooleanTrue;
+int kCFPreferencesCurrentApplication;
+int kCFRunLoopCommonModes;
+int kCFRunLoopDefaultMode;
+void CFArrayCreateMutable() {}
+void CFArrayGetCount() {}
+void CFArrayGetValueAtIndex() {}
+void CFArrayAppendValue() {}
+void CFArrayRemoveValueAtIndex() {}
+void CFDictionaryCreateMutable() {}
+void CFDictionaryAddValue() {}
+void CFDictionarySetValue() {}
+void CFDictionaryRemoveValue() {}
+void CFDictionaryRemoveAllValues() {}
+void CFDictionaryGetValue() {}
+void CFDictionaryGetCount() {}
+void CFDictionaryGetKeysAndValues() {}
+void CFBundleGetMainBundle() {}
+void CFBundleGetValueForInfoDictionaryKey() {}
+void CFBundleGetVersionNumber() {}
+void CFBundleCopyBundleURL() {}
+void CFBundleCopyResourcesDirectoryURL() {}
+void CFBundleCopyResourceURL() {}
+void CFBundleCopyBundleLocalizations() {}
+void CFBundleCopyPreferredLocalizationsFromArray() {}
+void CFBundleCopyLocalizedString() {}
+void CFSocketCreate() {}
+void CFDataCreate() {}
+void CFDataGetLength() {}
+void CFDataGetBytePtr() {}
+void CFDataGetBytes() {}
+void CFLocaleCopyCurrent() {}
+void CFLocaleCopyPreferredLanguages() {}
+void CFLocaleCreate() {}
+void CFLocaleCreateCanonicalLocaleIdentifierFromString() {}
+void CFLocaleGetSystem() {}
+void CFLocaleGetValue() {}
+void CFNumberCreate() {}
+void CFNumberGetValue() {}
+void CFNumberCompare() {}
+void CFBooleanGetValue() {}
+void CFPreferencesCopyAppValue() {}
+void CFPreferencesSetAppValue() {}
+void CFPreferencesAppSynchronize() {}
+void CFRunLoopGetCurrent() {}
+void CFRunLoopGetMain() {}
+void CFRunLoopRunInMode() {}
+void CFRunLoopTimerCreate() {}
+void CFRunLoopAddTimer() {}
+void CFRunLoopTimerInvalidate() {}
+void CFStringAppend() {}
+void CFStringAppendCString() {}
+void CFStringAppendFormat() {}
+void CFStringConvertEncodingToNSStringEncoding() {}
+void CFStringConvertNSStringEncodingToEncoding() {}
+void CFStringCreateCopy() {}
+void CFStringCreateMutable() {}
+void CFStringCreateMutableCopy() {}
+void CFStringCreateWithBytes() {}
+void CFStringCreateWithCString() {}
+void CFStringCreateWithFormat() {}
+void CFStringCreateWithFormatAndArguments() {}
+void CFStringCompare() {}
+void CFStringCompareWithOptions() {}
+void CFStringDelete() {}
+void CFStringGetCharacterAtIndex() {}
+void CFStringGetCharacters() {}
+void CFStringGetCStringPtr() {}
+void CFStringGetCString() {}
+void CFStringGetIntValue() {}
+void CFStringGetLength() {}
+void CFStringFind() {}
+void CFStringHasSuffix() {}
+void CFStringUppercase() {}
+void CFStringCreateWithPascalString() {}
+void CFStringGetPascalString() {}
+void CFRetain() {}
+void CFRelease() {}
+void CFGetRetainCount() {}
+void CFEqual() {}
+void CFHash() {}
+void CFURLGetFileSystemRepresentation() {}
+void CFURLCreateFromFileSystemRepresentation() {}
+void CFURLCreateWithBytes() {}
+void CFURLCreateWithFileSystemPath() {}
+void CFURLCopyPathExtension() {}
+void CFURLCopyFileSystemPath() {}
+void CFURLCreateCopyAppendingPathComponent() {}
+void CFURLCreateCopyDeletingLastPathComponent() {}
+void CFURLHasDirectoryPath() {}
+void CFAbsoluteTimeGetCurrent() {}
+void CFTimeZoneCopySystem() {}
+void CFAbsoluteTimeGetGregorianDate() {}
+void CFAbsoluteTimeGetDayOfWeek() {}
+// /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+@interface _touchHLE_CGDataProvider
+@end
+@implementation _touchHLE_CGDataProvider
+@end
+@interface _touchHLE_CGColor
+@end
+@implementation _touchHLE_CGColor
+@end
+@interface _touchHLE_CGColorSpace
+@end
+@implementation _touchHLE_CGColorSpace
+@end
+@interface _touchHLE_CGContext
+@end
+@implementation _touchHLE_CGContext
+@end
+@interface _touchHLE_CGImage
+@end
+@implementation _touchHLE_CGImage
+@end
+int CGAffineTransformIdentity;
+int kCGColorSpaceGenericRGB;
+int kCGColorSpaceGenericGray;
+int CGSizeZero;
+int CGPointZero;
+int CGRectZero;
+int CGRectNull;
+void CGAffineTransformIsIdentity() {}
+void CGAffineTransformEqualToTransform() {}
+void CGAffineTransformMake() {}
+void CGAffineTransformMakeRotation() {}
+void CGAffineTransformMakeScale() {}
+void CGAffineTransformMakeTranslation() {}
+void CGAffineTransformConcat() {}
+void CGAffineTransformRotate() {}
+void CGAffineTransformScale() {}
+void CGAffineTransformTranslate() {}
+void CGAffineTransformInvert() {}
+void CGPointApplyAffineTransform() {}
+void CGSizeApplyAffineTransform() {}
+void CGRectApplyAffineTransform() {}
+void CGBitmapContextCreate() {}
+void CGBitmapContextCreateImage() {}
+void CGBitmapContextGetData() {}
+void CGBitmapContextGetWidth() {}
+void CGBitmapContextGetHeight() {}
+void CGBitmapContextGetBytesPerRow() {}
+void CGColorRetain() {}
+void CGColorRelease() {}
+void CGColorCreate() {}
+void CGColorCreateGenericRGB() {}
+void CGColorSpaceCreateWithName() {}
+void CGColorSpaceCreateDeviceRGB() {}
+void CGColorSpaceCreateDeviceGray() {}
+void CGColorSpaceRetain() {}
+void CGColorSpaceRelease() {}
+void CGColorSpaceGetModel() {}
+void CGContextRetain() {}
+void CGContextRelease() {}
+void CGContextSetRGBFillColor() {}
+void CGContextSetGrayFillColor() {}
+void CGContextFillRect() {}
+void CGContextClearRect() {}
+void CGContextClipToRect() {}
+void CGContextConcatCTM() {}
+void CGContextGetCTM() {}
+void CGContextRotateCTM() {}
+void CGContextScaleCTM() {}
+void CGContextTranslateCTM() {}
+void CGContextDrawImage() {}
+void CGContextSaveGState() {}
+void CGContextRestoreGState() {}
+void CGContextSetInterpolationQuality() {}
+void CGDataProviderRetain() {}
+void CGDataProviderRelease() {}
+void CGDataProviderCreateWithData() {}
+void CGDataProviderCopyData() {}
+void CGDataProviderCreateWithURL() {}
+void CGDataProviderCreateWithCFData() {}
+void CGPointEqualToPoint() {}
+void CGSizeEqualToSize() {}
+void CGRectEqualToRect() {}
+void CGRectContainsPoint() {}
+void CGRectIntersectsRect() {}
+void CGRectGetMinX() {}
+void CGRectGetMaxX() {}
+void CGRectGetMinY() {}
+void CGRectGetMaxY() {}
+void CGRectGetHeight() {}
+void CGRectGetWidth() {}
+void CGRectMake() {}
+void CGRectIsNull() {}
+void CGImageRelease() {}
+void CGImageRetain() {}
+void CGImageCreateCopyWithColorSpace() {}
+void CGImageCreateWithPNGDataProvider() {}
+void CGImageCreateWithJPEGDataProvider() {}
+void CGImageGetAlphaInfo() {}
+void CGImageGetColorSpace() {}
+void CGImageGetWidth() {}
+void CGImageGetHeight() {}
+void CGImageGetBitsPerPixel() {}
+void CGImageGetBytesPerRow() {}
+void CGImageGetDataProvider() {}
+void CGImageGetBitsPerComponent() {}
+// /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+@interface CLLocationManager
+@end
+@implementation CLLocationManager
+@end
+@interface CLHeading
+@end
+@implementation CLHeading
+@end
+// /System/Library/Frameworks/Foundation.framework/Foundation
+@interface NSArray
+@end
+@implementation NSArray
+@end
+@interface NSMutableArray
+@end
+@implementation NSMutableArray
+@end
+@interface _touchHLE_NSArray
+@end
+@implementation _touchHLE_NSArray
+@end
+@interface _touchHLE_NSArray_non_retaining
+@end
+@implementation _touchHLE_NSArray_non_retaining
+@end
+@interface _touchHLE_NSArray_ObjectEnumerator
+@end
+@implementation _touchHLE_NSArray_ObjectEnumerator
+@end
+@interface _touchHLE_NSMutableArray
+@end
+@implementation _touchHLE_NSMutableArray
+@end
+@interface _touchHLE_NSMutableArray_non_retaining
+@end
+@implementation _touchHLE_NSMutableArray_non_retaining
+@end
+@interface NSAutoreleasePool
+@end
+@implementation NSAutoreleasePool
+@end
+@interface NSBundle
+@end
+@implementation NSBundle
+@end
+@interface NSCharacterSet
+@end
+@implementation NSCharacterSet
+@end
+@interface _touchHLE_NSCharacterSet
+@end
+@implementation _touchHLE_NSCharacterSet
+@end
+@interface NSCoder
+@end
+@implementation NSCoder
+@end
+@interface NSData
+@end
+@implementation NSData
+@end
+@interface NSMutableData
+@end
+@implementation NSMutableData
+@end
+@interface NSDate
+@end
+@implementation NSDate
+@end
+@interface NSDateFormatter
+@end
+@implementation NSDateFormatter
+@end
+@interface NSDictionary
+@end
+@implementation NSDictionary
+@end
+@interface NSMutableDictionary
+@end
+@implementation NSMutableDictionary
+@end
+@interface _touchHLE_NSDictionary
+@end
+@implementation _touchHLE_NSDictionary
+@end
+@interface _touchHLE_NSMutableDictionary
+@end
+@implementation _touchHLE_NSMutableDictionary
+@end
+@interface _touchHLE_NSMutableDictionary_non_retaining
+@end
+@implementation _touchHLE_NSMutableDictionary_non_retaining
+@end
+@interface NSEnumerator
+@end
+@implementation NSEnumerator
+@end
+@interface NSError
+@end
+@implementation NSError
+@end
+@interface NSFileHandle
+@end
+@implementation NSFileHandle
+@end
+@interface NSFileManager
+@end
+@implementation NSFileManager
+@end
+@interface NSDirectoryEnumerator
+@end
+@implementation NSDirectoryEnumerator
+@end
+@interface NSKeyedUnarchiver
+@end
+@implementation NSKeyedUnarchiver
+@end
+@interface NSLocale
+@end
+@implementation NSLocale
+@end
+@interface NSLock
+@end
+@implementation NSLock
+@end
+@interface NSRecursiveLock
+@end
+@implementation NSRecursiveLock
+@end
+@interface NSNotification
+@end
+@implementation NSNotification
+@end
+@interface NSNotificationCenter
+@end
+@implementation NSNotificationCenter
+@end
+@interface NSNull
+@end
+@implementation NSNull
+@end
+@interface NSObject
+@end
+@implementation NSObject
+@end
+@interface NSProcessInfo
+@end
+@implementation NSProcessInfo
+@end
+@interface NSPropertyListSerialization
+@end
+@implementation NSPropertyListSerialization
+@end
+@interface NSRunLoop
+@end
+@implementation NSRunLoop
+@end
+@interface NSScanner
+@end
+@implementation NSScanner
+@end
+@interface _touchHLE_NSScanner
+@end
+@implementation _touchHLE_NSScanner
+@end
+@interface NSSet
+@end
+@implementation NSSet
+@end
+@interface NSMutableSet
+@end
+@implementation NSMutableSet
+@end
+@interface _touchHLE_NSSet
+@end
+@implementation _touchHLE_NSSet
+@end
+@interface _touchHLE_NSMutableSet
+@end
+@implementation _touchHLE_NSMutableSet
+@end
+@interface NSString
+@end
+@implementation NSString
+@end
+@interface NSMutableString
+@end
+@implementation NSMutableString
+@end
+@interface _touchHLE_NSString
+@end
+@implementation _touchHLE_NSString
+@end
+@interface _touchHLE_NSString_Static
+@end
+@implementation _touchHLE_NSString_Static
+@end
+@interface _touchHLE_NSString_CFConstantString_UTF8
+@end
+@implementation _touchHLE_NSString_CFConstantString_UTF8
+@end
+@interface _touchHLE_NSString_CFConstantString_UTF16
+@end
+@implementation _touchHLE_NSString_CFConstantString_UTF16
+@end
+@interface _touchHLE_NSMutableString
+@end
+@implementation _touchHLE_NSMutableString
+@end
+@interface NSThread
+@end
+@implementation NSThread
+@end
+@interface NSTimer
+@end
+@implementation NSTimer
+@end
+@interface NSTimeZone
+@end
+@implementation NSTimeZone
+@end
+@interface NSURL
+@end
+@implementation NSURL
+@end
+@interface NSURLCache
+@end
+@implementation NSURLCache
+@end
+@interface NSURLConnection
+@end
+@implementation NSURLConnection
+@end
+@interface NSURLRequest
+@end
+@implementation NSURLRequest
+@end
+@interface NSMutableURLRequest
+@end
+@implementation NSMutableURLRequest
+@end
+@interface NSUserDefaults
+@end
+@implementation NSUserDefaults
+@end
+@interface NSValue
+@end
+@implementation NSValue
+@end
+@interface NSNumber
+@end
+@implementation NSNumber
+@end
+@interface NSXMLParser
+@end
+@implementation NSXMLParser
+@end
+int NSLocalizedDescriptionKey;
+int NSOSStatusErrorDomain;
+int NSCharacterConversionException;
+int NSDecimalNumberDivideByZeroException;
+int NSDecimalNumberExactnessException;
+int NSDecimalNumberOverflowException;
+int NSDecimalNumberUnderflowException;
+int NSDestinationInvalidException;
+int NSFileHandleOperationException;
+int NSGenericException;
+int NSInternalInconsistencyException;
+int NSInvalidArchiveOperationException;
+int NSInvalidArgumentException;
+int NSInvalidReceivePortException;
+int NSInvalidSendPortException;
+int NSInvalidUnarchiveOperationException;
+int NSInvocationOperationCancelledException;
+int NSInvocationOperationVoidResultException;
+int NSMallocException;
+int NSObjectInaccessibleException;
+int NSObjectNotAvailableException;
+int NSOldStyleException;
+int NSParseErrorException;
+int NSPortReceiveException;
+int NSPortSendException;
+int NSPortTimeoutException;
+int NSRangeException;
+int NSUndefinedKeyException;
+int NSInconsistentArchiveException;
+int NSPPDIncludeNotFoundException;
+int NSPPDIncludeStackOverflowException;
+int NSPPDIncludeStackUnderflowException;
+int NSPPDParseException;
+int NSRTFPropertyStackOverflowException;
+int NSTIFFException;
+int NSAbortModalException;
+int NSAbortPrintingException;
+int NSAccessibilityException;
+int NSAppKitIgnoredException;
+int NSAppKitVirtualMemoryException;
+int NSBadBitmapParametersException;
+int NSBadComparisonException;
+int NSBadRTFColorTableException;
+int NSBadRTFDirectiveException;
+int NSBadRTFFontTableException;
+int NSBadRTFStyleSheetException;
+int NSBrowserIllegalDelegateException;
+int NSColorListIOException;
+int NSColorListNotEditableException;
+int NSDraggingException;
+int NSFontUnavailableException;
+int NSIllegalSelectorException;
+int NSImageCacheException;
+int NSNibLoadingException;
+int NSPasteboardCommunicationException;
+int NSPrintOperationExistsException;
+int NSPrintPackageException;
+int NSPrintingCommunicationException;
+int NSTextLineTooLongException;
+int NSTextNoSelectionException;
+int NSTextReadException;
+int NSTextWriteException;
+int NSTypedStreamVersionException;
+int NSWindowServerCommunicationException;
+int NSWordTablesReadException;
+int NSWordTablesWriteException;
+int UIViewControllerHierarchyInconsistencyException;
+int UIApplicationInvalidInterfaceOrientationException;
+int NSFileModificationDate;
+int NSFileSize;
+int NSFileSystemFreeSize;
+int NSKeyedArchiveRootObjectKey;
+int NSLocaleCountryCode;
+int NSRunLoopCommonModes;
+int NSDefaultRunLoopMode;
+void NSStringFromRange() {}
+void NSSetUncaughtExceptionHandler() {}
+void NSHomeDirectory() {}
+void NSTemporaryDirectory() {}
+void NSSearchPathForDirectoriesInDomains() {}
+void NSLog() {}
+void NSLogv() {}
+void NSStringFromSelector() {}
+void NSSelectorFromString() {}
+void NSClassFromString() {}
+void NSStringFromClass() {}
+// /System/Library/Frameworks/GameKit.framework/GameKit
+@interface GKLocalPlayer
+@end
+@implementation GKLocalPlayer
+@end
+@interface GKScore
+@end
+@implementation GKScore
+@end
+int GKPlayerAuthenticationDidChangeNotificationName;
+// /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+@interface MPMoviePlayerController
+@end
+@implementation MPMoviePlayerController
+@end
+@interface MPMusicPlayerController
+@end
+@implementation MPMusicPlayerController
+@end
+@interface MPMediaLibrary
+@end
+@implementation MPMediaLibrary
+@end
+@interface MPMediaPickerController
+@end
+@implementation MPMediaPickerController
+@end
+@interface MPMediaQuery
+@end
+@implementation MPMediaQuery
+@end
+int MPMoviePlayerPlaybackDidFinishNotification;
+int MPMoviePlayerContentPreloadDidFinishNotification;
+int MPMoviePlayerScalingModeDidChangeNotification;
+int MPMusicPlayerControllerNowPlayingItemDidChangeNotification;
+int MPMusicPlayerControllerPlaybackStateDidChangeNotification;
+// /System/Library/Frameworks/OpenAL.framework/OpenAL
+void alcOpenDevice() {}
+void alcCloseDevice() {}
+void alcGetError() {}
+void alcCreateContext() {}
+void alcDestroyContext() {}
+void alcProcessContext() {}
+void alcSuspendContext() {}
+void alcMakeContextCurrent() {}
+void alcGetProcAddress() {}
+void alGetError() {}
+void alDistanceModel() {}
+void alListenerf() {}
+void alListener3f() {}
+void alListenerfv() {}
+void alListeneri() {}
+void alListener3i() {}
+void alListeneriv() {}
+void alGetListenerf() {}
+void alGetListener3f() {}
+void alGetListenerfv() {}
+void alGetListeneri() {}
+void alGetListener3i() {}
+void alGetListeneriv() {}
+void alGenSources() {}
+void alDeleteSources() {}
+void alSourcef() {}
+void alSource3f() {}
+void alSourcefv() {}
+void alSourcei() {}
+void alSource3i() {}
+void alSourceiv() {}
+void alGetSourcef() {}
+void alGetSource3f() {}
+void alGetSourcefv() {}
+void alGetSourcei() {}
+void alGetSource3i() {}
+void alGetSourceiv() {}
+void alSourcePlay() {}
+void alSourcePause() {}
+void alSourceStop() {}
+void alSourceRewind() {}
+void alSourceQueueBuffers() {}
+void alSourceUnqueueBuffers() {}
+void alGenBuffers() {}
+void alDeleteBuffers() {}
+void alBufferData() {}
+void alBufferDataStatic() {}
+void alcMacOSXMixerOutputRate() {}
+void alcMacOSXGetMixerOutputRate() {}
+void alcGetContextsDevice() {}
+void alcGetCurrentContext() {}
+void alcGetEnumValue() {}
+void alcGetIntegerv() {}
+void alcGetString() {}
+void alcIsExtensionPresent() {}
+void alIsBuffer() {}
+void alGetBufferf() {}
+void alGetBufferi() {}
+void alEnable() {}
+void alDisable() {}
+void alDopplerFactor() {}
+void alDopplerVelocity() {}
+void alGetBoolean() {}
+void alGetBooleanv() {}
+void alGetDouble() {}
+void alGetDoublev() {}
+void alGetFloat() {}
+void alGetFloatv() {}
+void alGetInteger() {}
+void alGetIntegerv() {}
+void alGetEnumValue() {}
+void alGetProcAddress() {}
+void alGetString() {}
+void alIsExtensionPresent() {}
+void alIsEnabled() {}
+void alIsSource() {}
+void alSourcePlayv() {}
+void alSourcePausev() {}
+void alSourceStopv() {}
+void alSourceRewindv() {}
+void alSpeedOfSound() {}
+// /System/Library/Frameworks/OpenGLES.framework/OpenGLES
+@interface EAGLContext
+@end
+@implementation EAGLContext
+@end
+int kEAGLDrawablePropertyColorFormat;
+int kEAGLDrawablePropertyRetainedBacking;
+int kEAGLColorFormatRGBA8;
+int kEAGLColorFormatRGB565;
+void glGetError() {}
+void glEnable() {}
+void glIsEnabled() {}
+void glDisable() {}
+void glClientActiveTexture() {}
+void glEnableClientState() {}
+void glDisableClientState() {}
+void glGetBooleanv() {}
+void glGetFloatv() {}
+void glGetIntegerv() {}
+void glGetPointerv() {}
+void glGetTexEnviv() {}
+void glGetTexEnvfv() {}
+void glHint() {}
+void glFinish() {}
+void glFlush() {}
+void glGetString() {}
+void glAlphaFunc() {}
+void glAlphaFuncx() {}
+void glBlendFunc() {}
+void glBlendEquationOES() {}
+void glColorMask() {}
+void glClipPlanef() {}
+void glClipPlanex() {}
+void glCullFace() {}
+void glDepthFunc() {}
+void glDepthMask() {}
+void glDepthRangef() {}
+void glDepthRangex() {}
+void glFrontFace() {}
+void glPolygonOffset() {}
+void glPolygonOffsetx() {}
+void glSampleCoverage() {}
+void glSampleCoveragex() {}
+void glShadeModel() {}
+void glScissor() {}
+void glViewport() {}
+void glLineWidth() {}
+void glLineWidthx() {}
+void glStencilFunc() {}
+void glStencilOp() {}
+void glStencilMask() {}
+void glPointSize() {}
+void glPointSizex() {}
+void glPointParameterf() {}
+void glPointParameterx() {}
+void glPointParameterfv() {}
+void glPointParameterxv() {}
+void glFogf() {}
+void glFogx() {}
+void glFogfv() {}
+void glFogxv() {}
+void glLightf() {}
+void glLightx() {}
+void glLightfv() {}
+void glLightxv() {}
+void glLightModelf() {}
+void glLightModelfv() {}
+void glLightModelx() {}
+void glLightModelxv() {}
+void glMaterialf() {}
+void glMaterialx() {}
+void glMaterialfv() {}
+void glMaterialxv() {}
+void glIsBuffer() {}
+void glGenBuffers() {}
+void glDeleteBuffers() {}
+void glBindBuffer() {}
+void glBufferData() {}
+void glBufferSubData() {}
+void glColor4f() {}
+void glColor4x() {}
+void glColor4ub() {}
+void glNormal3f() {}
+void glNormal3x() {}
+void glColorPointer() {}
+void glNormalPointer() {}
+void glTexCoordPointer() {}
+void glVertexPointer() {}
+void glDrawArrays() {}
+void glDrawElements() {}
+void glClear() {}
+void glClearColor() {}
+void glClearColorx() {}
+void glClearDepthf() {}
+void glClearDepthx() {}
+void glClearStencil() {}
+void glMatrixMode() {}
+void glLoadIdentity() {}
+void glLoadMatrixf() {}
+void glLoadMatrixx() {}
+void glMultMatrixf() {}
+void glMultMatrixx() {}
+void glPushMatrix() {}
+void glPopMatrix() {}
+void glOrthof() {}
+void glOrthox() {}
+void glFrustumf() {}
+void glFrustumx() {}
+void glRotatef() {}
+void glRotatex() {}
+void glScalef() {}
+void glScalex() {}
+void glTranslatef() {}
+void glTranslatex() {}
+void glPixelStorei() {}
+void glReadPixels() {}
+void glGenTextures() {}
+void glDeleteTextures() {}
+void glActiveTexture() {}
+void glIsTexture() {}
+void glBindTexture() {}
+void glTexParameteri() {}
+void glTexParameterf() {}
+void glTexParameterx() {}
+void glTexParameteriv() {}
+void glTexParameterfv() {}
+void glTexParameterxv() {}
+void glTexImage2D() {}
+void glTexSubImage2D() {}
+void glCompressedTexImage2D() {}
+void glCopyTexImage2D() {}
+void glCopyTexSubImage2D() {}
+void glTexEnvf() {}
+void glTexEnvx() {}
+void glTexEnvi() {}
+void glTexEnvfv() {}
+void glTexEnvxv() {}
+void glTexEnviv() {}
+void glGenFramebuffersOES() {}
+void glGenRenderbuffersOES() {}
+void glIsFramebufferOES() {}
+void glIsRenderbufferOES() {}
+void glBindFramebufferOES() {}
+void glBindRenderbufferOES() {}
+void glRenderbufferStorageOES() {}
+void glFramebufferRenderbufferOES() {}
+void glFramebufferTexture2DOES() {}
+void glGetFramebufferAttachmentParameterivOES() {}
+void glGetRenderbufferParameterivOES() {}
+void glCheckFramebufferStatusOES() {}
+void glDeleteFramebuffersOES() {}
+void glDeleteRenderbuffersOES() {}
+void glGenerateMipmapOES() {}
+void glGetBufferParameteriv() {}
+void glMapBufferOES() {}
+void glUnmapBufferOES() {}
+// /System/Library/Frameworks/StoreKit.framework/StoreKit
+@interface SKPaymentQueue
+@end
+@implementation SKPaymentQueue
+@end
+@interface SKProduct
+@end
+@implementation SKProduct
+@end
+@interface SKProductsRequest
+@end
+@implementation SKProductsRequest
+@end
+// /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+@interface _touchHLE_SCNetworkReachability
+@end
+@implementation _touchHLE_SCNetworkReachability
+@end
+void SCNetworkReachabilityCreateWithName() {}
+void SCNetworkReachabilityCreateWithAddress() {}
+void SCNetworkReachabilityGetFlags() {}
+void SCNetworkReachabilitySetCallback() {}
+// /System/Library/Frameworks/UIKit.framework/UIKit
+@interface UIAccelerometer
+@end
+@implementation UIAccelerometer
+@end
+@interface UIAcceleration
+@end
+@implementation UIAcceleration
+@end
+@interface UIActivityIndicatorView
+@end
+@implementation UIActivityIndicatorView
+@end
+@interface UIApplication
+@end
+@implementation UIApplication
+@end
+@interface UIColor
+@end
+@implementation UIColor
+@end
+@interface UICGColor
+@end
+@implementation UICGColor
+@end
+@interface UIDeviceRGBColor
+@end
+@implementation UIDeviceRGBColor
+@end
+@interface _touchHLE_UIColor_Static
+@end
+@implementation _touchHLE_UIColor_Static
+@end
+@interface UIDevice
+@end
+@implementation UIDevice
+@end
+@interface UIEvent
+@end
+@implementation UIEvent
+@end
+@interface UIFont
+@end
+@implementation UIFont
+@end
+@interface UIImage
+@end
+@implementation UIImage
+@end
+@interface UIImagePickerController
+@end
+@implementation UIImagePickerController
+@end
+@interface UINib
+@end
+@implementation UINib
+@end
+@interface UIProxyObject
+@end
+@implementation UIProxyObject
+@end
+@interface UIClassSwapper
+@end
+@implementation UIClassSwapper
+@end
+@interface UIRuntimeConnection
+@end
+@implementation UIRuntimeConnection
+@end
+@interface UIRuntimeEventConnection
+@end
+@implementation UIRuntimeEventConnection
+@end
+@interface UIRuntimeOutletConnection
+@end
+@implementation UIRuntimeOutletConnection
+@end
+@interface UIResponder
+@end
+@implementation UIResponder
+@end
+@interface UIScreen
+@end
+@implementation UIScreen
+@end
+@interface UITouch
+@end
+@implementation UITouch
+@end
+@interface UIView
+@end
+@implementation UIView
+@end
+@interface UIAlertView
+@end
+@implementation UIAlertView
+@end
+@interface UIControl
+@end
+@implementation UIControl
+@end
+@interface UIButton
+@end
+@implementation UIButton
+@end
+@interface UIRoundedRectButton
+@end
+@implementation UIRoundedRectButton
+@end
+@interface UIButtonContent
+@end
+@implementation UIButtonContent
+@end
+@interface UISegmentedControl
+@end
+@implementation UISegmentedControl
+@end
+@interface UISegment
+@end
+@implementation UISegment
+@end
+@interface UISlider
+@end
+@implementation UISlider
+@end
+@interface UITextField
+@end
+@implementation UITextField
+@end
+@interface UISwitch
+@end
+@implementation UISwitch
+@end
+@interface UIImageView
+@end
+@implementation UIImageView
+@end
+@interface UILabel
+@end
+@implementation UILabel
+@end
+@interface UIPickerView
+@end
+@implementation UIPickerView
+@end
+@interface UIScrollView
+@end
+@implementation UIScrollView
+@end
+@interface UITextView
+@end
+@implementation UITextView
+@end
+@interface UIWebView
+@end
+@implementation UIWebView
+@end
+@interface UIWindow
+@end
+@implementation UIWindow
+@end
+@interface UIViewController
+@end
+@implementation UIViewController
+@end
+@interface UINavigationController
+@end
+@implementation UINavigationController
+@end
+int UIApplicationDidFinishLaunchingNotification;
+int UIApplicationDidBecomeActiveNotification;
+int UIApplicationDidEnterBackgroundNotification;
+int UIApplicationWillEnterForegroundNotification;
+int UIApplicationWillResignActiveNotification;
+int UIApplicationWillTerminateNotification;
+int UIApplicationDidReceiveMemoryWarningNotification;
+int UIApplicationLaunchOptionsRemoteNotificationKey;
+int UIDeviceOrientationDidChangeNotification;
+int UITextFieldTextDidChangeNotification;
+int UIWindowDidBecomeKeyNotification;
+int UIKeyboardWillShowNotification;
+int UIKeyboardDidShowNotification;
+int UIKeyboardWillHideNotification;
+int UIKeyboardDidHideNotification;
+int UIKeyboardBoundsUserInfoKey;
+void UIApplicationMain() {}
+void CGPointFromString() {}
+void CGSizeFromString() {}
+void CGRectFromString() {}
+void NSStringFromCGPoint() {}
+void NSStringFromCGSize() {}
+void NSStringFromCGRect() {}
+void UIGraphicsPushContext() {}
+void UIGraphicsPopContext() {}
+void UIGraphicsGetCurrentContext() {}

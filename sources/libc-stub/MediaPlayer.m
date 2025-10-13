@@ -1,0 +1,25 @@
+@interface MPMoviePlayerController
+@end
+@implementation MPMoviePlayerController
+@end
+@interface MPMusicPlayerController
+@end
+@implementation MPMusicPlayerController
+@end
+@interface MPMediaLibrary
+@end
+@implementation MPMediaLibrary
+@end
+@interface MPMediaPickerController
+@end
+@implementation MPMediaPickerController
+@end
+@interface MPMediaQuery
+@end
+@implementation MPMediaQuery
+@end
+int MPMoviePlayerPlaybackDidFinishNotification;
+int MPMoviePlayerContentPreloadDidFinishNotification;
+int MPMoviePlayerScalingModeDidChangeNotification;
+int MPMusicPlayerControllerNowPlayingItemDidChangeNotification;
+int MPMusicPlayerControllerPlaybackStateDidChangeNotification;
