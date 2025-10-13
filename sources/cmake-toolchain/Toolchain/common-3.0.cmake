@@ -18,14 +18,10 @@ endif()
 
 set(CMAKE_C_COMPILER_TARGET arm-apple-ios3.0)
 
-if(NOT CMAKE_ARCHITECTURES)
-    set(CMAKE_ARCHITECTURES "armv6;armv7")
-endif()
-
-string(REPLACE ";" " -arch " ARCH_FLAGS "-arch ${CMAKE_ARCHITECTURES}")
-
 set(CMAKE_C_FLAGS_INIT
-    "-B${SDK_PATH}/usr/bin ${ARCH_FLAGS} -Wno-incompatible-sysroot -mlinker-version=253 -mfpu=vfpv2"
+    "-B${SDK_PATH}/usr/bin -Wno-incompatible-sysroot -mlinker-version=253 -mfpu=vfpv2"
 )
 
 set(CMAKE_FIND_ROOT_PATH ${SDK_PATH})
+
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
