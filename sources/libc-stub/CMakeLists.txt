@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 project(libsystem VERSION 1.0.0 LANGUAGES C)
 
-set(LIB_NAME "libSystem.B.dylib")
+set(LIB_NAME "System.B")
 set(INSTALL_PATH /usr/lib)
 set(VERSION 1.0.0)
 set(COMPAT_VERSION 1.0.0)
@@ -14,7 +14,6 @@ set(LIBSYSTEM_SOURCES
 add_library(${LIB_NAME} SHARED ${LIBSYSTEM_SOURCES})
 
 set_target_properties(${LIB_NAME} PROPERTIES
-    OUTPUT_NAME "System.B"
     OSX_ARCHITECTURES "armv6;armv7"
     MACHO_COMPATIBILITY_VERSION ${COMPAT_VERSION}
     MACHO_CURRENT_VERSION ${VERSION} 
@@ -44,7 +43,7 @@ target_link_options(${LIB_NAME}
         -twolevel_namespace
         -twolevel_namespace_hints
         -install_name
-        ${INSTALL_PATH}/${LIB_NAME}
+        ${INSTALL_PATH}/$<TARGET_FILE_NAME:${LIB_NAME}>
         -nostdlib
 )
 
