@@ -16,4 +16,4 @@ ExternalProject_Add(
 )
 
 install(DIRECTORY ${STUBS_INSTALL_DIR}/usr/lib DESTINATION usr)
-install(DIRECTORY ${STUBS_INSTALL_DIR}/System DESTINATION /)
+install(DIRECTORY ${STUBS_INSTALL_DIR}/System DESTINATION .)
