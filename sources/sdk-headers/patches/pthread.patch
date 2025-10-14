@@ -1,7 +1,7 @@
-diff --git a/pthread.h b/pthread.h
+diff --git a/usr/include/pthread.h b/usr/include/pthread.h
 index 4169176..2c639b0 100644
---- a/pthread.h
-+++ b/pthread.h
+--- a/usr/include/pthread.h
++++ b/usr/include/pthread.h
 @@ -54,11 +54,10 @@
  
  #include <_types.h>

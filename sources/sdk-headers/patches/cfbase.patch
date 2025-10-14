@@ -1,7 +1,7 @@
-diff --git a/CoreFoundation/CFBase.h b/CoreFoundation/CFBase.h
+diff --git a/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h b/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
 index c1e1590..869bf3d 100644
---- a/CoreFoundation/CFBase.h
-+++ b/CoreFoundation/CFBase.h
+--- a/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
++++ b/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
 @@ -64,7 +64,7 @@
  #include <AvailabilityMacros.h>
 

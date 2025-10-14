@@ -1,7 +1,7 @@
-diff --git a/ctype.h b/ctype.h
+diff --git a/usr/include/ctype.h b/usr/include/ctype.h
 index 1e43a6b..a8e4a8b 100644
---- a/ctype.h
-+++ b/ctype.h
+--- a/usr/include/ctype.h
++++ b/usr/include/ctype.h
 @@ -63,9 +63,6 @@
   *	@(#)ctype.h	8.4 (Berkeley) 1/21/94
   */

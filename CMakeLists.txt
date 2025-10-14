@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.20)
 
 set(CMAKE_GENERATOR "Ninja")
 
@@ -37,6 +37,6 @@ include(${CMAKE_CURRENT_LIST_DIR}/cmake/extra_headers.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/cmake/cctools_port.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/cmake/csu.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/cmake/sdk_libs.cmake)
-include(${CMAKE_CURRENT_LIST_DIR}/cmake/libc_stub.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/cmake/system_stubs.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/cmake/cmake_toolchain.cmake)
 include(${CMAKE_CURRENT_LIST_DIR}/cmake/licenses.cmake)

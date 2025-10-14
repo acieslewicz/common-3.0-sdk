@@ -137,7 +137,7 @@ def main():
         help="Path to YAML header configuration file",
     )
     parser.add_argument(
-        "--output", default="include", help="Output directory for extracted headers"
+        "--output", default="extracted_headers", help="Output directory for extracted headers"
     )
     parser.add_argument(
         "--patches", default="patches", help="Directory containing patches to apply"
