@@ -1,7 +1,7 @@
-diff --git a/TargetConditionals.h b/TargetConditionals.h
+diff --git a/usr/include/TargetConditionals.h b/usr/include/TargetConditionals.h
 index e9f4c6e..d5e6ac4 100644
---- a/TargetConditionals.h
-+++ b/TargetConditionals.h
+--- a/usr/include/TargetConditionals.h
++++ b/usr/include/TargetConditionals.h
 @@ -6,12 +6,12 @@
  #ifndef __TARGETCONDITIONALS__
  #define __TARGETCONDITIONALS__

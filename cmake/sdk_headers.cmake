@@ -51,7 +51,13 @@ add_custom_target(
 )
 
 install(
-    DIRECTORY ${CMAKE_BINARY_DIR}/include
-    DESTINATION usr
+    DIRECTORY ${CMAKE_BINARY_DIR}/extracted_headers/usr
+    DESTINATION .
+    COMPONENT headers
+)
+
+install(
+    DIRECTORY ${CMAKE_BINARY_DIR}/extracted_headers/System
+    DESTINATION .
     COMPONENT headers
 )

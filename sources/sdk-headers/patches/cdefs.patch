@@ -1,7 +1,7 @@
-diff --git a/sys/cdefs.h b/sys/cdefs.h
+diff --git a/usr/include/sys/cdefs.h b/usr/include/sys/cdefs.h
 index 59e922b..868033e 100644
---- a/sys/cdefs.h
-+++ b/sys/cdefs.h
+--- a/usr/include/sys/cdefs.h
++++ b/usr/include/sys/cdefs.h
 @@ -377,11 +377,7 @@
   * symbol suffixes used for symbol versioning
   */

@@ -3,56 +3,56 @@ xnu:
   sources:
     xnu-1504.15.3:
       - source: bsd/sys
-        dest: sys
+        dest: usr/include/sys
       - source: bsd/bsm
-        dest: bsm
+        dest: usr/include/bsm
       - source: EXTERNAL_HEADERS/architecture/byte_order.h
-        dest: architecture/byte_order.h
+        dest: usr/include/architecture/byte_order.h
       - source: osfmk/mach
-        dest: mach
+        dest: usr/include/mach
     xnu-1699.32.7:
       - source: EXTERNAL_HEADERS/stdint.h
-        dest: stdint.h
+        dest: usr/include/stdint.h
     xnu-4570.1.46:
       - source: EXTERNAL_HEADERS/Availability.h
-        dest: Availability.h
+        dest: usr/include/Availability.h
       - source: EXTERNAL_HEADERS/AvailabilityMacros.h
-        dest: AvailabilityMacros.h
+        dest: usr/include/AvailabilityMacros.h
       - source: EXTERNAL_HEADERS/AvailabilityInternal.h
-        dest: AvailabilityInternal.h
+        dest: usr/include/AvailabilityInternal.h
       - source: bsd/arm
-        dest: arm
+        dest: usr/include/arm
       - source: osfmk/arm/arch.h
-        dest: arm/arch.h
+        dest: usr/include/arm/arch.h
       - source: bsd/sys/_types
-        dest: sys/_types
+        dest: usr/include/sys/_types
       - source: bsd/netinet
-        dest: netinet
+        dest: usr/include/netinet
       - source: bsd/netinet6
-        dest: netinet6
+        dest: usr/include/netinet6
       - source: libkern/libkern/arm/OSByteOrder.h
-        dest: libkern/arm/OSByteOrder.h
+        dest: usr/include/libkern/arm/OSByteOrder.h
       - source: libkern/libkern/OSByteOrder.h
-        dest: libkern/OSByteOrder.h
+        dest: usr/include/libkern/OSByteOrder.h
       - source: libkern/libkern/_OSByteOrder.h
-        dest: libkern/_OSByteOrder.h
+        dest: usr/include/libkern/_OSByteOrder.h
       - source: osfmk/mach/arm
-        dest: mach/arm
+        dest: usr/include/mach/arm
       - source: osfmk/mach/machine
-        dest: mach/machine
+        dest: usr/include/mach/machine
       - source: bsd/machine
-        dest: machine
+        dest: usr/include/machine
       - source: bsd/machine/_mcontext.h
-        dest: machine/_structs.h
+        dest: usr/include/machine/_structs.h
       - source: EXTERNAL_HEADERS/mach-o
-        dest: mach-o
+        dest: usr/include/mach-o
 
 cctools:
   repo_url: https://github.com/apple-oss-distributions/cctools.git
   sources:
     cctools-384.1:
       - source: include/mach-o/ldsyms.h
-        dest: mach-o/ldsyms.h
+        dest: usr/include/mach-o/ldsyms.h
 
 
 libc:
@@ -60,10 +60,10 @@ libc:
   sources:
     Libc-498.1.7:
       - source: include
-        dest: ""
+        dest: usr/include/
     Libc-997.1.1:
       - source: include/arpa
-        dest: arpa
+        dest: usr/include/arpa
 
 
 dyld:
@@ -71,47 +71,47 @@ dyld:
   sources:
     dyld-1162:
       - source: include/dlfcn.h
-        dest: dlfcn.h
+        dest: usr/include/dlfcn.h
 
 pthread:
   repo_url: https://github.com/apple-oss-distributions/libpthread.git
   sources:
     libpthread-105.1.4:
       - source: pthread/pthread.h
-        dest: pthread.h
+        dest: usr/include/pthread.h
       - source: pthread/pthread_impl.h
-        dest: pthread_impl.h
+        dest: usr/include/pthread_impl.h
       - source: pthread/sched.h
-        dest: sched.h
+        dest: usr/include/sched.h
       - source: sys/_pthread
-        dest: sys/_pthread
+        dest: usr/include/sys/_pthread
 
 corefoundation:
   repo_url: https://github.com/apple-oss-distributions/CF.git
   sources:
     CF-550.42:
       - source: .
-        dest: CoreFoundation
+        dest: System/Library/Frameworks/CoreFoundation.framework/Headers
     CF-1153.18:
       - source: TargetConditionals.h
-        dest: ""
+        dest: usr/include/ 
 
 libm:
   repo_url: https://github.com/apple-oss-distributions/Libm.git
   sources:
     Libm-2026:
       - source: Source/math.h
-        dest: math.h
+        dest: usr/include/math.h
       - source: Source/ARM/math.h
-        dest: architecture/arm/math.h
+        dest: usr/include/architecture/arm/math.h
       - source: Source/fenv.h
-        dest: fenv.h
+        dest: usr/include/fenv.h
       - source: Source/ARM/fenv.h
-        dest: architecture/arm/fenv.h
+        dest: usr/include/architecture/arm/fenv.h
 
 libplatform:
   repo_url: https://github.com/apple-oss-distributions/libplatform.git
   sources:
     libplatform-126.1.2:
       - source: include/setjmp.h
-        dest: setjmp.h
+        dest: usr/include/setjmp.h
