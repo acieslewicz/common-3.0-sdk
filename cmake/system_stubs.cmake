@@ -5,7 +5,7 @@ set(STUBS_INSTALL_DIR "${CMAKE_BINARY_DIR}/system-stubs")
 include(ExternalProject)
 
 ExternalProject_Add(
-    libc_stub
+    system_stubs
     SOURCE_DIR ${STUBS_SOURCE_DIR}
     BINARY_DIR ${STUBS_BINARY_DIR}
     INSTALL_DIR ${STUBS_INSTALL_DIR}
@@ -15,4 +15,4 @@ ExternalProject_Add(
         -DCMAKE_C_COMPILER=${CMAKE_C_COMPILER}
 )
 
-install(DIRECTORY ${STUBS_INSTALL_DIR}/lib DESTINATION usr)
+install(DIRECTORY ${STUBS_INSTALL_DIR}/usr/lib DESTINATION usr)

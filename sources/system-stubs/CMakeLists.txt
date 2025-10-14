@@ -49,11 +49,11 @@ foreach(DYLIB ${DYLIBS})
             -nostdlib
     )
 
-    install(TARGETS ${DYLIB} LIBRARY DESTINATION lib)
+    install(TARGETS ${DYLIB} LIBRARY DESTINATION usr/lib)
 
     string(REGEX REPLACE "\\..*$" "" BASE_NAME ${DYLIB})
 
     # Also install as non canonical lib name.
     # Ideally, this would be symlinked but that's flaky on windows.
-    install(FILES $<TARGET_FILE:${DYLIB}> DESTINATION lib RENAME lib${BASE_NAME}.dylib)
+    install(FILES $<TARGET_FILE:${DYLIB}> DESTINATION usr/lib RENAME lib${BASE_NAME}.dylib)
 endforeach(DYLIB ${DYLIBS})
