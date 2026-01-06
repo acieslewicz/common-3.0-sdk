@@ -115,3 +115,10 @@ libplatform:
     libplatform-126.1.2:
       - source: include/setjmp.h
         dest: usr/include/setjmp.h
+
+libinfo:
+  repo_url: https://github.com/apple-oss-distributions/Libinfo.git
+  sources:
+    Libinfo-278:
+      - source: lookup.subproj/netdb.h
+        dest: usr/include/netdb.h
