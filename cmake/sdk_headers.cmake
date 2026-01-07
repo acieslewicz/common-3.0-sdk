@@ -1,4 +1,4 @@
-find_package(Python3 REQUIRED)
+find_package(Python3 3.12 REQUIRED)
 
 set(VENV_DIR "${CMAKE_BINARY_DIR}/.venv")
 
