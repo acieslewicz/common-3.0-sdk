@@ -355,3 +355,8 @@ void strlcat() {}
 void utimes() {}
 void fchmod() {}
 void dlerror() {}
+void poll() {}
+void getsockname() {}
+void nan() {}
+void dup() {}
+void __fpclassify() {}
