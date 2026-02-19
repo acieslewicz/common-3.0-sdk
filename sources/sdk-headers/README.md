@@ -1,5 +1,19 @@
-Creates a Frankenstein's monster combindation of headers for iPhoneOS3.0 using a combination of xnu, libc, dyld, cctools and system headers.
+# Header Extractor
+Extract headers from a configured set of source repositories to a desired destination.
 
-This has been tested on macos, ubuntu and windows, and can be used compile CSU and zlib.
+## Setup
 
-To run simply run the script `./extract_ios_headers.py` can get help using `./extract_ios_headers.py --help`
+```bash
+# Install requirements
+pip install -r requirements.txt
+```
+
+## Running
+
+```bash
+# Run the script loading config
+python extract_headers.py --config header_sources.yaml
+
+# Get usage information
+python extract_headers.py --help
+```

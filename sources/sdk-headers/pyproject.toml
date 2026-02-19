@@ -1,7 +1,7 @@
 [project]
-name = "build-iphone3-0-sdk-headers"
+name = "header-extractor"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extract and patch headers from source repositories"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
