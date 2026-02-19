@@ -1,0 +1,14 @@
+diff --git a/usr/include/malloc/malloc.h b/usr/include/malloc/malloc.h
+index bc3a360..5e9f722 100644
+--- a/usr/include/malloc/malloc.h
++++ b/usr/include/malloc/malloc.h
+@@ -54,9 +54,6 @@ typedef struct _malloc_zone_t {
+     
+     /* aligned memory allocation. The callback may be NULL. */
+ 	void *(*memalign)(struct _malloc_zone_t *zone, size_t alignment, size_t size);
+-    
+-    /* free a pointer known to be in zone and known to have the given size. The callback may be NULL. */
+-    void (*free_definite_size)(struct _malloc_zone_t *zone, void *ptr, size_t size);
+ } malloc_zone_t;
+ 
+ /*********	Creation and destruction	************/
