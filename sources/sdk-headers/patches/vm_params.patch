@@ -1,0 +1,63 @@
+diff --git "a/usr/include/mach/arm/vm_param.h" "b/usr/include/mach/arm/vm_param.h"
+index ac98e8b..291b04c 100644
+--- "a/usr/include/mach/arm/vm_param.h"
++++ "b/usr/include/mach/arm/vm_param.h"
+@@ -40,13 +40,8 @@
+ #include <arm64/proc_reg.h>
+ #endif
+ 
+-#if !defined (KERNEL) && !defined (__ASSEMBLER__)
+-#include <mach/vm_page_size.h>
+-#endif
+-
+ #define BYTE_SIZE	8	/* byte size in bits */
+ 
+-#if defined (KERNEL)
+ 
+ #ifndef __ASSEMBLER__
+ 
+@@ -79,18 +74,6 @@ extern unsigned		PAGE_SHIFT_CONST;
+ 
+ #endif	/* !__ASSEMBLER__ */
+ 
+-#else
+-
+-#define PAGE_SHIFT			vm_page_shift
+-#define PAGE_SIZE			vm_page_size
+-#define PAGE_MASK			vm_page_mask
+-
+-#define VM_PAGE_SIZE		vm_page_size
+-
+-#define	machine_ptob(x)		((x) << PAGE_SHIFT)
+-
+-#endif
+-
+ #define PAGE_MAX_SHIFT		14
+ #define PAGE_MAX_SIZE		(1 << PAGE_MAX_SHIFT)
+ #define PAGE_MAX_MASK		(PAGE_MAX_SIZE-1)
+@@ -163,8 +146,6 @@ extern unsigned		PAGE_SHIFT_CONST;
+ #define VM_MAP_MIN_ADDRESS      VM_MIN_ADDRESS
+ #define VM_MAP_MAX_ADDRESS      VM_MAX_ADDRESS
+ 
+-#ifdef	KERNEL
+-
+ #if defined (__arm__)
+ #define VM_MIN_KERNEL_ADDRESS	((vm_address_t) 0x80000000)
+ #define VM_MAX_KERNEL_ADDRESS	((vm_address_t) 0xFFFEFFFF)
+@@ -186,7 +167,6 @@ extern unsigned		PAGE_SHIFT_CONST;
+ #define VM_KERNEL_ADDRESS(va)	((((vm_address_t)(va))>=VM_MIN_KERNEL_ADDRESS) && \
+ 				(((vm_address_t)(va))<=VM_MAX_KERNEL_ADDRESS))
+ 
+-#ifdef  MACH_KERNEL_PRIVATE
+ /*
+  *	Physical memory is mapped linearly at an offset virtual memory.
+  */
+@@ -209,8 +189,6 @@ extern unsigned long		gVirtBase, gPhysBase, gPhysSize;
+ #define HIGH_EXC_VECTORS	((vm_address_t) 0xFFFF0000)
+ #endif
+ 
+-#endif	/* MACH_KERNEL_PRIVATE */
+-#endif	/* KERNEL */
+ 
+ #endif	/* !__ASSEMBLER__ */
+ 
