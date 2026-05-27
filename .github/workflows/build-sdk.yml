@@ -75,8 +75,8 @@ jobs:
       if: matrix.os == 'macos-latest'
       run: |
         brew install llvm@21
-        echo "CC=$(brew --prefix llvm)/bin/clang" >> $GITHUB_ENV
-        echo "CXX=$(brew --prefix llvm)/bin/clang++" >> $GITHUB_ENV
+        echo "CC=$(brew --prefix llvm@21)/bin/clang" >> $GITHUB_ENV
+        echo "CXX=$(brew --prefix llvm@21)/bin/clang++" >> $GITHUB_ENV
     
     - name: Download SDK
       working-directory: sdk-source
@@ -130,7 +130,7 @@ jobs:
         echo "${{ env.EXPECTED_TEST_HASH }} build/libz.1.2.3.dylib" > test.sha256sum
         sha256sum -c test.sha256sum
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: common-3.0.sdk-${{ matrix.platform }}
         path: sdk-source/common-3.0.sdk-${{ matrix.platform }}.tar.gz
